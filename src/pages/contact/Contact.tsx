@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
 
         {/* Grid Pattern */}
-        <div className="grid-pattern absolute inset-0"></div>
+        <div className=" absolute inset-0"></div>
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10">
           {/* Section Header */}
@@ -79,7 +79,9 @@ const Contact: React.FC = () => {
             {/* Left Column - Contact Form */}
             <div className="contact-form-container relative">
               <div className="contact-form-card p-8 lg:p-10 bg-white border border-[#e2e8f0] rounded-3xl shadow-sm">
-                <h3 className="text-2xl font-bold mb-8 text-[#1e2332]">Send us a Message</h3>
+                <h3 className="text-2xl font-bold mb-8 text-[#1e2332]">
+                  Send us a Message
+                </h3>
 
                 <form onSubmit={handleSubmit} className="space-y-6">
                   {/* Name Input */}
@@ -335,7 +337,9 @@ const Contact: React.FC = () => {
 
               {/* Social Links */}
               <div className="p-8 bg-white border border-[#e2e8f0] rounded-3xl">
-                <h4 className="text-xl font-semibold mb-6 text-[#1e2332]">Follow Us</h4>
+                <h4 className="text-xl font-semibold mb-6 text-[#1e2332]">
+                  Follow Us
+                </h4>
                 <div className="flex gap-4">
                   {/* Facebook */}
                   <a

@@ -109,6 +109,12 @@ export default function Header() {
               >
                 Contact
               </Link>
+              <Link
+                to="/affiliate"
+                className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium"
+              >
+                Affiliate
+              </Link>
             </div>
 
             {/* Mobile Menu Button */}
