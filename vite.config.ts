@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    port: 9090,
+    port: 7000,
 
     // ✅ Allow your custom domain
     allowedHosts: ["faisal8080.merinasib.shop"],
