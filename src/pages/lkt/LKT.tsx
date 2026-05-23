@@ -9,7 +9,6 @@ import {
   Cell,
   ResponsiveContainer,
   Tooltip,
-  Legend,
 } from "recharts";
 import lkt from "../../assets/lkt.png";
 const LKT: React.FC = () => {
@@ -55,32 +54,6 @@ const LKT: React.FC = () => {
       );
     }
     return null;
-  };
-
-  // Custom Legend
-  const renderLegend = (props: any) => {
-    const { payload } = props;
-    return (
-      <div className="flex flex-wrap justify-center gap-3 mt-8">
-        {payload.map((entry: any, index: number) => (
-          <div
-            key={`legend-${index}`}
-            className="flex items-center gap-2 px-3 py-1.5 bg-white border border-[#e2e8f0] rounded-full hover:border-accent/40 transition-all"
-          >
-            <div
-              className="w-3 h-3 rounded-full"
-              style={{ backgroundColor: entry.color }}
-            ></div>
-            <span className="text-sm font-medium text-[#4b5563]">
-              {entry.value}
-            </span>
-            <span className="text-xs font-semibold text-[#1b6ef3]">
-              {tokenomicsData[index].value}%
-            </span>
-          </div>
-        ))}
-      </div>
-    );
   };
 
   const referralYears = [

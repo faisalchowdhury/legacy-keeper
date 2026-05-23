@@ -3,7 +3,7 @@ import Header from "../../layouts/Header";
 import Footer from "../../layouts/Footer";
 import { useLanguage } from "../../i18n/LanguageContext";
 import dex from "../../assets/dex.png";
-import { Mail, Send, Facebook, Twitter, Instagram } from "lucide-react";
+import { Mail, Send, Facebook, Twitter } from "lucide-react";
 const Contact: React.FC = () => {
   const { t } = useLanguage();
   const c = t.contact;

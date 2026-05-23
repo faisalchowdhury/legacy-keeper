@@ -6,7 +6,7 @@ export const nl = {
     contact: "Contact",
     affiliate: "Affiliate",
     referralReward: "Verwijzingsbeloningen",
-    ltk: "LKT",
+    lkt: "LKT",
   },
 
   footer: {
