@@ -4,16 +4,16 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  server: {
-    port: 8080,
+  // server: {
+  //   port: 8080,
 
-    // ✅ Allow your custom domain
-    allowedHosts: ["faisal8080.merinasib.shop"],
+  //   // ✅ Allow your custom domain
+  //   allowedHosts: ["faisal8080.merinasib.shop"],
 
-    // ✅ Required for external access
-    host: true,
-    cors: true,
-  },
+  //   // ✅ Required for external access
+  //   host: true,
+  //   cors: true,
+  // },
   build: {
     //   target: "esnext", // Ensure modern JavaScript syntax is used
     outDir: "dist", // Define your output directory for production build
