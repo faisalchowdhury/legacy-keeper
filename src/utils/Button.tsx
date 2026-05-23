@@ -1,5 +1,3 @@
-import React from "react";
-import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router";
 
 interface ButtonProps {

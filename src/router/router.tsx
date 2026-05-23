@@ -13,6 +13,8 @@ import {
   DeviceStoragePage,
 } from "../pages/AllFeaturePages.tsx";
 import Affiliate from "../pages/Affiliate/Affiliate.tsx";
+import ReferralReward from "../pages/referralReward/ReferralReward.tsx";
+import LKT from "../pages/lkt/LKT.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -58,5 +60,13 @@ export const router = createBrowserRouter([
   {
     path: "/affiliate",
     element: <Affiliate />,
+  },
+  {
+    path: "/referral-reward",
+    element: <ReferralReward />,
+  },
+  {
+    path: "/legecy-keeper-token",
+    element: <LKT />,
   },
 ]);
