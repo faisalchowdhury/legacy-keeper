@@ -1,4 +1,4 @@
-import "./LandingPage.css";
+import "./landingPage.css";
 import Home from "../../assets/Home.png";
 import StatsCounterSection from "../../components/StatsCounterSection";
 import Header from "../../layouts/Header";
