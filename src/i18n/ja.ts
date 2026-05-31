@@ -23,8 +23,7 @@ export const ja = {
     heroTitle: "あなたの",
     heroTitleAccent: "遺産を保護する。",
     heroTitleLine2: "愛する人を守る。",
-    heroDesc:
-      "最も機密性の高い情報を、クラウドではなく、",
+    heroDesc: "最も機密性の高い情報を、クラウドではなく、",
     heroDescAccent: "あなたのデバイス上",
     heroDescEnd: "に保管する唯一の遺言・遺産計画アプリです。",
     downloadOnThe: "Download on the",
@@ -38,8 +37,7 @@ export const ja = {
     howItWorksTitle1: "Legacy Keeperの",
     howItWorksTitle2: "仕組み",
     howItWorksTitle3: "",
-    howItWorksDesc:
-      "遺産を保護し、愛する人を守るための4つのシンプルなステップ",
+    howItWorksDesc: "遺産を保護し、愛する人を守るための4つのシンプルなステップ",
     steps: [
       {
         title: "遺産を記録する",
@@ -146,7 +144,8 @@ export const ja = {
     messagePlaceholder: "どのようにお手伝いできるか教えてください...",
     sending: "送信中...",
     sendMessage: "メッセージを送信",
-    successMessage: "✓ ありがとうございます。メッセージは正常に送信されました。",
+    successMessage:
+      "✓ ありがとうございます。メッセージは正常に送信されました。",
     errorMessage: "✕ エラーが発生しました。もう一度お試しください。",
     emailUs: "メールでのお問い合わせ",
     emailSubtitle: "メールでご連絡ください",
@@ -165,7 +164,8 @@ export const ja = {
     desc: "お客様のプライバシーは私たちの活動の中核です。Legacy Keeperがどのように機密情報を保護しているかをご確認ください。",
     lastUpdated: "最終更新日: 2024年1月1日",
     localStorageTitle: "100% ローカルストレージ",
-    localStorageDesc: "すべてのデータはデバイス内に留まります。クラウドへのアップロードはありません。",
+    localStorageDesc:
+      "すべてのデータはデバイス内に留まります。クラウドへのアップロードはありません。",
     noDataTitle: "データ収集なし",
     noDataDesc: "個人情報の収集、保存、販売は行いません。",
     fullControlTitle: "完全なコントロール",
@@ -265,7 +265,8 @@ export const ja = {
     s6sub1p1:
       "Legacy Keeperによってデバイスに保存されるすべてのデータは、iOSおよびAndroidオペレーティングシステムが提供する業界標準の暗号化プロトコルを使用して暗号化されます。",
     s6sub2: "6.2 お客様の責任",
-    s6sub2p1: "データはデバイスに保存されるため、セキュリティは以下に依存します：",
+    s6sub2p1:
+      "データはデバイスに保存されるため、セキュリティは以下に依存します：",
     s6sub2items: [
       "強力なデバイスのパスコード/パスワードの使用",
       "生体認証（Face ID、Touch ID、指紋認証）の有効化",
@@ -357,8 +358,8 @@ export const ja = {
       { id: "contact", label: "13. お問い合わせ" },
     ],
     s1Title: "1. 規約の承諾",
-    s1p1: 'Legacy Keeper（以下「本アプリ」、「本サービス」）をダウンロード、インストール、または使用することにより、お客様はこれらの利用規約（以下「本規約」）に拘束されることに同意したものとみなされます。本規約に同意しない場合は、本アプリを使用しないでください。',
-    s1p2: '本規約は、お客様（以下「ユーザー」、「お客様」）とLegacy Keeper（以下「当社」）との間の法的拘束力のある合意を構成します。',
+    s1p1: "Legacy Keeper（以下「本アプリ」、「本サービス」）をダウンロード、インストール、または使用することにより、お客様はこれらの利用規約（以下「本規約」）に拘束されることに同意したものとみなされます。本規約に同意しない場合は、本アプリを使用しないでください。",
+    s1p2: "本規約は、お客様（以下「ユーザー」、「お客様」）とLegacy Keeper（以下「当社」）との間の法的拘束力のある合意を構成します。",
     s1highlight: "重要：",
     s1highlightText:
       "「同意する」をクリックするか、本アプリを使用することにより、お客様は本規約を読み、理解し、拘束されることに同意したことを認めるものとします。",
@@ -448,7 +449,7 @@ export const ja = {
     s7sub1: "7.1 「現状有姿」のサービス",
     s7warning: "重要な免責事項：",
     s7warningText:
-      'Legacy Keeperは「現状有姿」および「利用可能な範囲」で提供され、明示的か黙示的かを問わず、いかなる種類の保証も行いません。',
+      "Legacy Keeperは「現状有姿」および「利用可能な範囲」で提供され、明示的か黙示的かを問わず、いかなる種類の保証も行いません。",
     s7sub2: "7.2 無保証",
     s7sub2p1: "当社は以下を保証しません：",
     s7sub2items: [
@@ -538,8 +539,7 @@ export const ja = {
     s12sub3p1:
       "お客様は、紛争を個別に解決することに同意し、集団訴訟または集団仲裁に参加する権利を放棄するものとします。",
     s13Title: "13. お問い合わせ",
-    s13p1:
-      "本規約に関するご質問がある場合は、お問い合わせください：",
+    s13p1: "本規約に関するご質問がある場合は、お問い合わせください：",
     contactInfoTitle: "連絡先情報",
     addTitle: "追加規定",
     severabilityTitle: "分離可能性",
@@ -620,39 +620,19 @@ export const ja = {
     sections: [
       {
         title: "サービスの種類",
-        items: [
-          "伝統的な葬儀",
-          "告別式",
-          "お別れ会",
-          "プライベートセレモニー",
-        ],
+        items: ["伝統的な葬儀", "告別式", "お別れ会", "プライベートセレモニー"],
       },
       {
         title: "埋葬の好み",
-        items: [
-          "埋葬場所",
-          "棺の選択",
-          "火葬の希望",
-          "樹木葬オプション",
-        ],
+        items: ["埋葬場所", "棺の選択", "火葬の希望", "樹木葬オプション"],
       },
       {
         title: "特別リクエスト",
-        items: [
-          "音楽の選択",
-          "朗読と祈り",
-          "写真の展示",
-          "慈善団体への寄付",
-        ],
+        items: ["音楽の選択", "朗読と祈り", "写真の展示", "慈善団体への寄付"],
       },
       {
         title: "ゲストリスト",
-        items: [
-          "通知すべき人",
-          "特別招待",
-          "弔辞の読み手",
-          "名誉棺担ぎ",
-        ],
+        items: ["通知すべき人", "特別招待", "弔辞の読み手", "名誉棺担ぎ"],
       },
     ],
     documentWishes: "希望を記録する",
@@ -993,7 +973,7 @@ export const ja = {
       supply: "最大供給量",
       utility: "ユーティリティ",
       utilityValue: "報酬、コミュニティ、アフィリエイトエコシステム",
-      comingSoon: "近日公開",
+      comingSoon: "5KsedXbpqURW2APFoVNDjvRgHQ6RAU551uATCqUunLKT",
     },
 
     howToEarnTitle: "LKTの獲得方法",
@@ -1046,7 +1026,8 @@ export const ja = {
     referralBadge: "🎯 紹介プログラム",
     referralTitle: "紹介報酬",
     referralTitleAccent: "スケジュール",
-    referralDesc: "早く紹介するほど多く獲得できます - 報酬は時間の経過とともに減少します！",
+    referralDesc:
+      "早く紹介するほど多く獲得できます - 報酬は時間の経過とともに減少します！",
     perReferral: "/ 紹介ごと",
     allocation: "割当",
 

@@ -151,7 +151,8 @@ export const fr = {
     emailUs: "Écrivez-nous",
     emailSubtitle: "Contactez-nous par e-mail",
     telegram: "Telegram",
-    telegramSubtitle: "Restez connecté et suivez toutes nos dernières mises à jour",
+    telegramSubtitle:
+      "Restez connecté et suivez toutes nos dernières mises à jour",
     callHours: "Lun-Ven de 8h à 18h",
     visitUs: "Visitez-nous",
     visitSubtitle: "Venez nous dire bonjour à notre bureau",
@@ -165,16 +166,22 @@ export const fr = {
     desc: "Votre confidentialité est au cœur de tout ce que nous faisons. Découvrez comment Legacy Keeper protège vos informations les plus sensibles.",
     lastUpdated: "Dernière mise à jour : 1er janvier 2024",
     localStorageTitle: "100% Stockage local",
-    localStorageDesc: "Toutes les données restent sur votre appareil. Aucun téléchargement sur le cloud.",
+    localStorageDesc:
+      "Toutes les données restent sur votre appareil. Aucun téléchargement sur le cloud.",
     noDataTitle: "Aucune collecte de données",
-    noDataDesc: "Nous ne collectons, ne stockons ni ne vendons vos informations personnelles.",
+    noDataDesc:
+      "Nous ne collectons, ne stockons ni ne vendons vos informations personnelles.",
     fullControlTitle: "Contrôle total",
-    fullControlDesc: "Vous possédez et contrôlez 100% de vos données à tout moment.",
+    fullControlDesc:
+      "Vous possédez et contrôlez 100% de vos données à tout moment.",
     contentsTitle: "Sommaire",
     sections: [
       { id: "introduction", label: "1. Introduction" },
       { id: "data-storage", label: "2. Stockage des données" },
-      { id: "information-collect", label: "3. Informations que nous collectons" },
+      {
+        id: "information-collect",
+        label: "3. Informations que nous collectons",
+      },
       { id: "how-we-use", label: "4. Comment nous utilisons les données" },
       { id: "data-sharing", label: "5. Partage des données" },
       { id: "data-security", label: "6. Sécurité des données" },
@@ -204,7 +211,8 @@ export const fr = {
       "Si vous perdez votre appareil ou désinstallez l'application, vos données ne peuvent pas être récupérées par Legacy Keeper. Nous recommandons des sauvegardes régulières de l'appareil.",
     s3Title: "3. Informations que nous collectons",
     s3sub1: "3.1 Informations stockées localement sur votre appareil",
-    s3sub1p1: "Les informations suivantes sont stockées uniquement sur votre appareil :",
+    s3sub1p1:
+      "Les informations suivantes sont stockées uniquement sur votre appareil :",
     s3sub1items: [
       "Informations personnelles (nom, date de naissance, coordonnées)",
       "Informations sur les actifs (propriétés, comptes bancaires, investissements, actifs numériques)",
@@ -237,7 +245,8 @@ export const fr = {
     s4sub1p1:
       "Les données stockées localement sur votre appareil sont utilisées uniquement dans le but de vous fournir les fonctionnalités de Legacy Keeper. Nous n'accédons, ne visualisons ni n'utilisons jamais ces données.",
     s4sub2: "4.2 Données techniques",
-    s4sub2p1: "Les données techniques minimales que nous collectons sont utilisées uniquement pour :",
+    s4sub2p1:
+      "Les données techniques minimales que nous collectons sont utilisées uniquement pour :",
     s4sub2items: [
       "Assurer la compatibilité de l'application avec votre appareil",
       "Corriger les bugs et améliorer les performances de l'application",
@@ -265,7 +274,8 @@ export const fr = {
     s6sub1p1:
       "Toutes les données stockées par Legacy Keeper sur votre appareil sont chiffrées à l'aide de protocoles de chiffrement standard de l'industrie fournis par les systèmes d'exploitation iOS et Android.",
     s6sub2: "6.2 Votre responsabilité",
-    s6sub2p1: "Puisque les données sont stockées sur votre appareil, la sécurité dépend de :",
+    s6sub2p1:
+      "Puisque les données sont stockées sur votre appareil, la sécurité dépend de :",
     s6sub2items: [
       "L'utilisation d'un code d'accès/mot de passe d'appareil fort",
       "L'activation de l'authentification biométrique (Face ID, Touch ID, empreinte digitale)",
@@ -284,13 +294,14 @@ export const fr = {
     s7sub2p1: "Vous pouvez supprimer toutes vos données à tout moment en :",
     s7sub2items: [
       "Supprimant des éléments individuels dans l'application",
-      'Utilisant l\'option "Supprimer toutes les données" dans les paramètres de l\'application',
+      "Utilisant l'option \"Supprimer toutes les données\" dans les paramètres de l'application",
       "Désinstallant l'application (ce qui supprime toutes les données locales)",
     ],
     s7sub3: "7.3 Portabilité des données",
     s7sub3p1:
       "Vous pouvez exporter vos données de Legacy Keeper à tout moment en utilisant la fonction d'exportation, qui crée un fichier sécurisé que vous pouvez stocker ou transférer.",
-    s7sub4: "7.4 Droits au titre du RGPD, du CCPA et d'autres lois sur la confidentialité",
+    s7sub4:
+      "7.4 Droits au titre du RGPD, du CCPA et d'autres lois sur la confidentialité",
     s7sub4p1:
       "Bien que nous ne soyons pas soumis à la plupart des réglementations sur la confidentialité des données (car nous ne collectons pas de données personnelles), nous respectons les principes de :",
     s7sub4items: [
@@ -335,9 +346,11 @@ export const fr = {
     desc: "Veuillez lire attentivement ces conditions avant d'utiliser Legacy Keeper. En utilisant notre application, vous acceptez d'être lié par ces conditions.",
     lastUpdated: "Dernière mise à jour : 1er janvier 2024",
     deviceOnlyTitle: "Stockage sur l'appareil uniquement",
-    deviceOnlyDesc: "Vous êtes responsable de la sauvegarde de votre appareil et de vos données.",
+    deviceOnlyDesc:
+      "Vous êtes responsable de la sauvegarde de votre appareil et de vos données.",
     noLegalTitle: "Pas de conseils juridiques",
-    noLegalDesc: "Legacy Keeper ne fournit pas de conseils juridiques ou financiers.",
+    noLegalDesc:
+      "Legacy Keeper ne fournit pas de conseils juridiques ou financiers.",
     ageTitle: "Exigence d'âge",
     ageDesc: "Vous devez avoir 18 ans ou plus pour utiliser Legacy Keeper.",
     contentsTitle: "Sommaire",
@@ -361,7 +374,7 @@ export const fr = {
     s1p2: 'Ces Conditions constituent un accord juridiquement contraignant entre vous ("Utilisateur", "vous", "votre") et Legacy Keeper ("nous", "notre").',
     s1highlight: "Important :",
     s1highlightText:
-      'En cliquant sur "Accepter" ou en utilisant l\'Application, vous reconnaissez avoir lu, compris et accepté d\'être lié par ces Conditions.',
+      "En cliquant sur \"Accepter\" ou en utilisant l'Application, vous reconnaissez avoir lu, compris et accepté d'être lié par ces Conditions.",
     s2Title: "2. Description du service",
     s2p1: "Legacy Keeper est une application mobile qui aide les utilisateurs à :",
     s2items: [
@@ -602,7 +615,10 @@ export const fr = {
     titleAccent: "des actifs",
     desc: "Documentez chaque actif que vous possédez dans un endroit sûr. De l'immobilier aux monnaies numériques, gardez trace de tout ce qui compte.",
     assets: [
-      { title: "Immobilier", desc: "Propriétés, terrains, résidences secondaires" },
+      {
+        title: "Immobilier",
+        desc: "Propriétés, terrains, résidences secondaires",
+      },
       { title: "Comptes bancaires", desc: "Comptes courants, épargne, dépôts" },
       { title: "Investissements", desc: "Actions, obligations, fonds communs" },
       { title: "Retraite", desc: "401k, IRA, plans de pension" },
@@ -967,7 +983,8 @@ export const fr = {
   lkt: {
     heroBadge: "Jeton Officiel de la Communauté et des Récompenses",
     heroTitle: "Legacy Keeper Token",
-    heroSubtitle: "Jeton Officiel de la Communauté et des Récompenses de l'écosystème Legacy Keeper",
+    heroSubtitle:
+      "Jeton Officiel de la Communauté et des Récompenses de l'écosystème Legacy Keeper",
     builtOnSolana: "Construit sur Solana",
     splToken: "Jeton SPL • Rapide et frais peu élevés",
 
@@ -994,7 +1011,7 @@ export const fr = {
       supply: "Offre maximale",
       utility: "Utilité",
       utilityValue: "Récompenses, communauté, écosystème d'affiliation",
-      comingSoon: "Prochainement",
+      comingSoon: "5KsedXbpqURW2APFoVNDjvRgHQ6RAU551uATCqUunLKT",
     },
 
     howToEarnTitle: "Comment les utilisateurs gagnent des LKT",
@@ -1047,7 +1064,8 @@ export const fr = {
     referralBadge: "🎯 Programme de parrainage",
     referralTitle: "Calendrier des récompenses",
     referralTitleAccent: "de parrainage",
-    referralDesc: "Gagnez plus en parrainant tôt - les récompenses diminuent avec le temps !",
+    referralDesc:
+      "Gagnez plus en parrainant tôt - les récompenses diminuent avec le temps !",
     perReferral: "par parrainage",
     allocation: "Allocation",
 

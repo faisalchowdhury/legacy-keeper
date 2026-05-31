@@ -151,7 +151,8 @@ export const de = {
     emailUs: "Schreiben Sie uns",
     emailSubtitle: "Kontakt per E-Mail",
     telegram: "Telegram",
-    telegramSubtitle: "Bleiben Sie auf dem Laufenden mit unseren neuesten Updates",
+    telegramSubtitle:
+      "Bleiben Sie auf dem Laufenden mit unseren neuesten Updates",
     callHours: "Mo-Fr von 8:00 bis 18:00 Uhr",
     visitUs: "Besuchen Sie uns",
     visitSubtitle: "Besuchen Sie uns in unserem Büro",
@@ -165,11 +166,14 @@ export const de = {
     desc: "Ihr Datenschutz steht im Mittelpunkt unseres Handelns. Erfahren Sie, wie Legacy Keeper Ihre sensibelsten Informationen schützt.",
     lastUpdated: "Zuletzt aktualisiert: 1. Januar 2024",
     localStorageTitle: "100% Lokale Speicherung",
-    localStorageDesc: "Alle Daten bleiben auf Ihrem Gerät. Niemals Cloud-Uploads.",
+    localStorageDesc:
+      "Alle Daten bleiben auf Ihrem Gerät. Niemals Cloud-Uploads.",
     noDataTitle: "Keine Datenerfassung",
-    noDataDesc: "Wir erfassen, speichern oder verkaufen Ihre persönlichen Daten nicht.",
+    noDataDesc:
+      "Wir erfassen, speichern oder verkaufen Ihre persönlichen Daten nicht.",
     fullControlTitle: "Vollständige Kontrolle",
-    fullControlDesc: "Sie besitzen und kontrollieren jederzeit 100% Ihrer Daten.",
+    fullControlDesc:
+      "Sie besitzen und kontrollieren jederzeit 100% Ihrer Daten.",
     contentsTitle: "Inhalt",
     sections: [
       { id: "introduction", label: "1. Einführung" },
@@ -204,7 +208,8 @@ export const de = {
       "Wenn Sie Ihr Gerät verlieren oder die App deinstallieren, können Ihre Daten von Legacy Keeper nicht wiederhergestellt werden. Wir empfehlen regelmäßige Geräte-Backups.",
     s3Title: "3. Informationen, die wir sammeln",
     s3sub1: "3.1 Lokal auf Ihrem Gerät gespeicherte Informationen",
-    s3sub1p1: "Die folgenden Informationen werden nur auf Ihrem Gerät gespeichert:",
+    s3sub1p1:
+      "Die folgenden Informationen werden nur auf Ihrem Gerät gespeichert:",
     s3sub1items: [
       "Persönliche Informationen (Name, Geburtsdatum, Kontaktdaten)",
       "Vermögensinformationen (Immobilien, Bankkonten, Investitionen, digitale Assets)",
@@ -237,7 +242,8 @@ export const de = {
     s4sub1p1:
       "Lokal auf Ihrem Gerät gespeicherte Daten werden ausschließlich zum Zweck der Bereitstellung der Funktionalität von Legacy Keeper für Sie verwendet. Wir greifen niemals auf diese Daten zu, sehen sie nicht ein und verwenden sie nicht.",
     s4sub2: "4.2 Technische Daten",
-    s4sub2p1: "Die minimalen technischen Daten, die wir sammeln, werden nur verwendet, um:",
+    s4sub2p1:
+      "Die minimalen technischen Daten, die wir sammeln, werden nur verwendet, um:",
     s4sub2items: [
       "Die Kompatibilität der App mit Ihrem Gerät sicherzustellen",
       "Fehler zu beheben und die App-Performance zu verbessern",
@@ -265,7 +271,8 @@ export const de = {
     s6sub1p1:
       "Alle von Legacy Keeper auf Ihrem Gerät gespeicherten Daten werden mit Verschlüsselungsprotokollen nach Industriestandard verschlüsselt, die von den Betriebssystemen iOS und Android bereitgestellt werden.",
     s6sub2: "6.2 Ihre Verantwortung",
-    s6sub2p1: "Da die Daten auf Ihrem Gerät gespeichert werden, hängt die Sicherheit ab von:",
+    s6sub2p1:
+      "Da die Daten auf Ihrem Gerät gespeichert werden, hängt die Sicherheit ab von:",
     s6sub2items: [
       "Verwendung eines starken Geräte-Passcodes/Passworts",
       "Aktivierung der biometrischen Authentifizierung (Face ID, Touch ID, Fingerabdruck)",
@@ -335,7 +342,8 @@ export const de = {
     desc: "Bitte lesen Sie diese Bedingungen sorgfältig durch, bevor Sie Legacy Keeper nutzen. Durch die Nutzung unserer App erklären Sie sich mit diesen Bedingungen einverstanden.",
     lastUpdated: "Zuletzt aktualisiert: 1. Januar 2024",
     deviceOnlyTitle: "Nur-Geräte-Speicherung",
-    deviceOnlyDesc: "Sie sind für die Sicherung Ihres Geräts und Ihrer Daten verantwortlich.",
+    deviceOnlyDesc:
+      "Sie sind für die Sicherung Ihres Geräts und Ihrer Daten verantwortlich.",
     noLegalTitle: "Keine Rechtsberatung",
     noLegalDesc: "Legacy Keeper bietet keine Rechts- oder Finanzberatung an.",
     ageTitle: "Altersanforderung",
@@ -607,7 +615,10 @@ export const de = {
       { title: "Investitionen", desc: "Aktien, Anleihen, Investmentfonds" },
       { title: "Altersvorsorge", desc: "Rentenpläne, Lebensversicherungen" },
       { title: "Digitale Assets", desc: "Kryptowährungen, NFTs, Domains" },
-      { title: "Persönliches Eigentum", desc: "Fahrzeuge, Schmuck, Sammlungen" },
+      {
+        title: "Persönliches Eigentum",
+        desc: "Fahrzeuge, Schmuck, Sammlungen",
+      },
     ],
     startDocumenting: "Dokumentation starten",
   },
@@ -967,7 +978,8 @@ export const de = {
   lkt: {
     heroBadge: "Offizieller Community & Belohnungs-Token",
     heroTitle: "Legacy Keeper Token",
-    heroSubtitle: "Offizieller Community & Belohnungs-Token des Legacy Keeper Ökosystems",
+    heroSubtitle:
+      "Offizieller Community & Belohnungs-Token des Legacy Keeper Ökosystems",
     builtOnSolana: "Auf Solana aufgebaut",
     splToken: "SPL Token • Schnell & Geringe Gebühren",
 
@@ -994,7 +1006,7 @@ export const de = {
       supply: "Maximales Angebot",
       utility: "Nutzen",
       utilityValue: "Belohnungen, Community, Affiliate-Ökosystem",
-      comingSoon: "Demnächst verfügbar",
+      comingSoon: "5KsedXbpqURW2APFoVNDjvRgHQ6RAU551uATCqUunLKT",
     },
 
     howToEarnTitle: "Wie Nutzer LKT verdienen",
@@ -1047,7 +1059,8 @@ export const de = {
     referralBadge: "🎯 Empfehlungsprogramm",
     referralTitle: "Belohnungs-",
     referralTitleAccent: "plan",
-    referralDesc: "Verdienen Sie mehr durch frühes Empfehlen – Belohnungen sinken mit der Zeit!",
+    referralDesc:
+      "Verdienen Sie mehr durch frühes Empfehlen – Belohnungen sinken mit der Zeit!",
     perReferral: "pro Empfehlung",
     allocation: "Zuteilung",
 

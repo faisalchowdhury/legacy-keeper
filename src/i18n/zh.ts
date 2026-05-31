@@ -38,8 +38,7 @@ export const zh = {
     howItWorksTitle1: "了解",
     howItWorksTitle2: "Legacy Keeper",
     howItWorksTitle3: "如何运作",
-    howItWorksDesc:
-      "只需四个简单步骤，即可保障您的遗产并保护您的亲人",
+    howItWorksDesc: "只需四个简单步骤，即可保障您的遗产并保护您的亲人",
     steps: [
       {
         title: "记录您的遗产",
@@ -73,8 +72,7 @@ export const zh = {
 
     downloadTitle: "今天就开始保障您的",
     downloadTitleAccent: "遗产",
-    downloadDesc:
-      "下载 Legacy Keeper，迈出保护最重要事物的第一步。",
+    downloadDesc: "下载 Legacy Keeper，迈出保护最重要事物的第一步。",
     downloadOnTheLarge: "在以下渠道下载",
     getItOnLarge: "立即获取",
   },
@@ -197,8 +195,7 @@ export const zh = {
       "仅限设备存储：您在 Legacy Keeper 中输入的任何信息都仅存储在您设备的加密本地存储中。",
     s2li3:
       "服务器上无备份：我们不会创建或维护您的数据备份。您负责备份您的设备。",
-    s2li4:
-      "无数据同步：您的数据不会跨设备同步。每个设备维护其独立的本地数据。",
+    s2li4: "无数据同步：您的数据不会跨设备同步。每个设备维护其独立的本地数据。",
     s2highlight: "这意味着：",
     s2highlightText:
       "如果您丢失了设备或卸载了应用程序，Legacy Keeper 无法恢复您的数据。我们建议定期进行设备备份。",
@@ -250,8 +247,7 @@ export const zh = {
     s5highlightText:
       "因为我们无法访问您的个人数据（它仅存储在您的设备上），所以我们不能也不会与任何人共享。",
     s5sub2: "5.2 第三方服务",
-    s5sub2p1:
-      "我们在极少的数据暴露情况下使用以下第三方服务：",
+    s5sub2p1: "我们在极少的数据暴露情况下使用以下第三方服务：",
     s5sub2items: [
       "分析（可选）：匿名应用程序使用统计信息（您可以在设置中选择退出）",
       "崩溃报告：不含个人数据的技术崩溃日志",
@@ -384,12 +380,15 @@ export const zh = {
       "财务、税务或遗产规划建议",
     ],
     s2highlight: "需要专业建议：",
-    s2highlightText: "在做出遗产规划决策之前，您应咨询合格的法律和财务专业人士。",
+    s2highlightText:
+      "在做出遗产规划决策之前，您应咨询合格的法律和财务专业人士。",
     s3Title: "3. 资格和年龄要求",
     s3sub1: "3.1 年龄要求",
-    s3sub1p1: "您必须年满 18 岁才能使用 Legacy Keeper。通过使用本应用，您声明并保证您年满 18 岁。",
+    s3sub1p1:
+      "您必须年满 18 岁才能使用 Legacy Keeper。通过使用本应用，您声明并保证您年满 18 岁。",
     s3sub2: "3.2 法律行为能力",
-    s3sub2p1: "您必须具有签订具有约束力的协议的法律行为能力。如果您代表某个组织使用本应用，则表示您有权使该组织受本条款约束。",
+    s3sub2p1:
+      "您必须具有签订具有约束力的协议的法律行为能力。如果您代表某个组织使用本应用，则表示您有权使该组织受本条款约束。",
     s4Title: "4. 您的责任",
     s4sub1: "4.1 数据准确性",
     s4sub1p1: "您独自对以下事项负责：",
@@ -409,7 +408,8 @@ export const zh = {
     ],
     s4sub3: "4.3 数据备份",
     s4warning: "您的责任：",
-    s4warningText: "您必须定期备份您的设备。Legacy Keeper 不提供云备份服务。丢失的数据无法恢复。",
+    s4warningText:
+      "您必须定期备份您的设备。Legacy Keeper 不提供云备份服务。丢失的数据无法恢复。",
     s4sub4: "4.4 法律合规",
     s4sub4p1: "您必须：",
     s4sub4items: [
@@ -431,15 +431,19 @@ export const zh = {
     ],
     s6Title: "6. 知识产权",
     s6sub1: "6.1 我们的知识产权",
-    s6sub1p1: "Legacy Keeper，包括所有软件、设计、图形、文本和其他内容，均归我们所有，并受版权、商标和其他知识产权法保护。",
+    s6sub1p1:
+      "Legacy Keeper，包括所有软件、设计、图形、文本和其他内容，均归我们所有，并受版权、商标和其他知识产权法保护。",
     s6sub2: "6.2 您的数据",
-    s6sub2p1: "您保留对您在 Legacy Keeper 中创建和存储的内容和数据的所有权利。我们不主张您数据的所有权。",
+    s6sub2p1:
+      "您保留对您在 Legacy Keeper 中创建和存储的内容和数据的所有权利。我们不主张您数据的所有权。",
     s6sub3: "6.3 使用许可",
-    s6sub3p1: "我们授予您有限的、非排他性的、不可转让的许可，以便根据本条款将 Legacy Keeper 用于个人的、非商业目的。",
+    s6sub3p1:
+      "我们授予您有限的、非排他性的、不可转让的许可，以便根据本条款将 Legacy Keeper 用于个人的、非商业目的。",
     s7Title: "7. 免责声明",
     s7sub1: "7.1 “按现状”服务",
     s7warning: "重要免责声明：",
-    s7warningText: "Legacy Keeper 按“原样”和“可用性”提供，不附带任何形式的明示或暗示保证。",
+    s7warningText:
+      "Legacy Keeper 按“原样”和“可用性”提供，不附带任何形式的明示或暗示保证。",
     s7sub2: "7.2 无保证",
     s7sub2p1: "我们不保证：",
     s7sub2items: [
@@ -458,10 +462,12 @@ export const zh = {
       "提供的信息在法律上是准确或完整的",
     ],
     s7sub4: "7.4 第三方服务",
-    s7sub4p1: "我们对可能通过本应用访问的任何第三方服务、链接或内容不承担任何责任。",
+    s7sub4p1:
+      "我们对可能通过本应用访问的任何第三方服务、链接或内容不承担任何责任。",
     s8Title: "8. 责任限制",
     s8warning: "重要法律声明：",
-    s8warningText: "在法律允许的最大范围内，Legacy Keeper 及其关联公司不对因您使用本应用而产生的任何损害承担责任。",
+    s8warningText:
+      "在法律允许的最大范围内，Legacy Keeper 及其关联公司不对因您使用本应用而产生的任何损害承担责任。",
     s8sub1: "8.1 对以下事项不承担责任",
     s8sub1p1: "我们对以下事项不承担责任：",
     s8sub1items: [
@@ -474,7 +480,8 @@ export const zh = {
       "所提供内容中的错误或遗漏",
     ],
     s8sub2: "8.2 最高赔偿责任",
-    s8sub2p1: "在任何情况下，我们对您的所有损害承担的总赔偿责任均不应超过您在索赔前 12 个月内为使用 Legacy Keeper 支付的金额（如有）。",
+    s8sub2p1:
+      "在任何情况下，我们对您的所有损害承担的总赔偿责任均不应超过您在索赔前 12 个月内为使用 Legacy Keeper 支付的金额（如有）。",
     s9Title: "9. 赔偿",
     s9p1: "您同意赔偿、捍卫并使 Legacy Keeper 及其高级职员、董事、员工和代理人免受因以下原因引起的任何索赔、责任、损害、损失或开支：",
     s9items: [
@@ -488,7 +495,8 @@ export const zh = {
     s10sub1: "10.1 您的终止权",
     s10sub1p1: "您可以随时通过从设备中卸载本应用来停止使用 Legacy Keeper。",
     s10sub2: "10.2 我们的终止权",
-    s10sub2p1: "如果您违反本条款或出于任何其他原因，我们可以暂停或终止您对 Legacy Keeper 的访问，无论是否另行通知。",
+    s10sub2p1:
+      "如果您违反本条款或出于任何其他原因，我们可以暂停或终止您对 Legacy Keeper 的访问，无论是否另行通知。",
     s10sub3: "10.3 终止的影响",
     s10sub3p1: "终止后：",
     s10sub3items: [
@@ -498,19 +506,23 @@ export const zh = {
     ],
     s11Title: "11. 本条款的变更",
     s11sub1: "11.1 修改权",
-    s11sub1p1: "我们保留随时修改本条款的权利。我们将通过以下方式通知您重大变更：",
+    s11sub1p1:
+      "我们保留随时修改本条款的权利。我们将通过以下方式通知您重大变更：",
     s11sub1items: [
       "应用内通知",
       "更新此页面并附上新的“最近更新日期”",
       "电子邮件通知（如有提供）",
     ],
     s11sub2: "11.2 您的接受",
-    s11sub2p1: "在本条款变更后继续使用 Legacy Keeper 即表示您接受修改后的条款。如果您不同意变更，则必须停止使用本应用。",
+    s11sub2p1:
+      "在本条款变更后继续使用 Legacy Keeper 即表示您接受修改后的条款。如果您不同意变更，则必须停止使用本应用。",
     s12Title: "12. 准据法和争议解决",
     s12sub1: "12.1 准据法",
-    s12sub1p1: "本条款应受美国加利福尼亚州法律管辖并按其解释，不考虑其冲突法条款。",
+    s12sub1p1:
+      "本条款应受美国加利福尼亚州法律管辖并按其解释，不考虑其冲突法条款。",
     s12sub2: "12.2 争议解决",
-    s12sub2p1: "因本条款或您使用 Legacy Keeper 而产生的任何争议应通过以下方式解决：",
+    s12sub2p1:
+      "因本条款或您使用 Legacy Keeper 而产生的任何争议应通过以下方式解决：",
     s12sub2items: [
       "双方之间的善意协商",
       "如果协商失败，则进行具有约束力的仲裁",
@@ -523,14 +535,18 @@ export const zh = {
     contactInfoTitle: "联系信息",
     addTitle: "附加条款",
     severabilityTitle: "可分割性",
-    severabilityP: "如果本条款的任何规定被发现不可执行，其余规定将继续保持完全效力。",
+    severabilityP:
+      "如果本条款的任何规定被发现不可执行，其余规定将继续保持完全效力。",
     entireAgreementTitle: "完整协议",
-    entireAgreementP: "本条款连同我们的隐私政策构成您与 Legacy Keeper 之间关于使用本应用的完整协议。",
+    entireAgreementP:
+      "本条款连同我们的隐私政策构成您与 Legacy Keeper 之间关于使用本应用的完整协议。",
     noWaiverTitle: "不放弃权利",
     noWaiverP: "我们未能行使本条款中的任何权利或规定，不应被视为放弃这些权利。",
     assignmentTitle: "转让",
-    assignmentP: "未经我们书面同意，您不得转让或转移本条款。我们可以不受限制地转让本条款。",
-    finalNotice: "使用 Legacy Keeper，即表示您确认您已阅读、理解并同意受这些条款和条件的约束。",
+    assignmentP:
+      "未经我们书面同意，您不得转让或转移本条款。我们可以不受限制地转让本条款。",
+    finalNotice:
+      "使用 Legacy Keeper，即表示您确认您已阅读、理解并同意受这些条款和条件的约束。",
   },
 
   digitalWill: {
@@ -594,39 +610,19 @@ export const zh = {
     sections: [
       {
         title: "服务类型",
-        items: [
-          "传统葬礼",
-          "追思会",
-          "生命庆典",
-          "私人仪式",
-        ],
+        items: ["传统葬礼", "追思会", "生命庆典", "私人仪式"],
       },
       {
         title: "安葬偏好",
-        items: [
-          "安葬地点",
-          "棺木选择",
-          "火葬愿望",
-          "生态安葬选项",
-        ],
+        items: ["安葬地点", "棺木选择", "火葬愿望", "生态安葬选项"],
       },
       {
         title: "特别要求",
-        items: [
-          "音乐选择",
-          "诵读与祈祷",
-          "照片展示",
-          "慈善捐赠",
-        ],
+        items: ["音乐选择", "诵读与祈祷", "照片展示", "慈善捐赠"],
       },
       {
         title: "宾客名单",
-        items: [
-          "通知人员",
-          "特别邀请",
-          "悼词演讲者",
-          "名誉抬棺人",
-        ],
+        items: ["通知人员", "特别邀请", "悼词演讲者", "名誉抬棺人"],
       },
     ],
     documentWishes: "记录您的愿望",
@@ -747,7 +743,8 @@ export const zh = {
       },
     ],
     reminderTitle: "⚠️ 重要提醒",
-    reminderDesc: "由于您的数据仅存储在您的设备上，请务必定期备份您的设备。如果您丢失了设备或卸载了应用，您的数据将无法恢复。",
+    reminderDesc:
+      "由于您的数据仅存储在您的设备上，请务必定期备份您的设备。如果您丢失了设备或卸载了应用，您的数据将无法恢复。",
     getStarted: "开始使用",
   },
 
@@ -755,18 +752,23 @@ export const zh = {
     badge: "Legacy Keeper 积分",
     heroTitle: "推荐奖励",
     heroTitleAccent: "计划表",
-    heroDesc: "每次成功推荐均可赚取 Legacy Keeper Token 积分。早期采用者的奖励最高，并随时间逐渐减少——越早加入，赚得越多。",
+    heroDesc:
+      "每次成功推荐均可赚取 Legacy Keeper Token 积分。早期采用者的奖励最高，并随时间逐渐减少——越早加入，赚得越多。",
     tokenName: "Legacy Keeper Token",
     tokenSubtitle: "LKT — 通过推荐赚取",
-    introText: "Legacy Keeper 积分分发给通过推荐积极扩大我们社区的用户。每当您推荐的人加入并设置其 Legacy Keeper 帐户时，您都会直接收到 Legacy Keeper 积分。",
-    introText2: "奖励计划旨在激励早期增长，同时确保代币生态系统的长期可持续性。奖励大约每年减半，这使得早期参与变得非常有价值。",
+    introText:
+      "Legacy Keeper 积分分发给通过推荐积极扩大我们社区的用户。每当您推荐的人加入并设置其 Legacy Keeper 帐户时，您都会直接收到 Legacy Keeper 积分。",
+    introText2:
+      "奖励计划旨在激励早期增长，同时确保代币生态系统的长期可持续性。奖励大约每年减半，这使得早期参与变得非常有价值。",
     scheduleBadge: "年度奖励计划表",
     scheduleTitle: "逐年",
     scheduleTitleAccent: "积分奖励",
     scheduleDesc: "奖励金额随时间减少，以鼓励早期采用并控制代币供应。",
-    year2026Desc: "最高奖励等级。在 2026 年加入并推荐的早期采用者每次成功推荐可赚取最高的 500 积分。",
+    year2026Desc:
+      "最高奖励等级。在 2026 年加入并推荐的早期采用者每次成功推荐可赚取最高的 500 积分。",
     year2027Desc: "随着平台的发展，奖励调整为每次推荐 250 积分。分配池将减少。",
-    year2028Desc: "最后计划的奖励阶段提供每次推荐 125 积分，并配有受控的分配池，确保长期代币价值。",
+    year2028Desc:
+      "最后计划的奖励阶段提供每次推荐 125 积分，并配有受控的分配池，确保长期代币价值。",
     earlyPhase: "早期采用者阶段",
     growthPhase: "增长阶段",
     maturityPhase: "成熟阶段",
@@ -775,20 +777,27 @@ export const zh = {
     designedForBadge: "计划目标",
     designedTitle: "旨在实现",
     designedTitleAccent: "长期价值",
-    designedDesc: "Legacy Keeper 积分推荐奖励计划表围绕五个核心原则构建，保护早期采用者和生态系统的长期健康。",
+    designedDesc:
+      "Legacy Keeper 积分推荐奖励计划表围绕五个核心原则构建，保护早期采用者和生态系统的长期健康。",
     goal1Title: "控制代币通胀",
-    goal1Desc: "通过在 2026-2028 年高增长年份提前发放奖励，我们减轻了 LKT 的长期通胀压力。",
+    goal1Desc:
+      "通过在 2026-2028 年高增长年份提前发放奖励，我们减轻了 LKT 的长期通胀压力。",
     goal2Title: "奖励早期采用者",
-    goal2Desc: "早期加入并推荐的用户将获得最高代币奖励——这是对早期社区建设者所承担风险和所提供价值的认可。",
+    goal2Desc:
+      "早期加入并推荐的用户将获得最高代币奖励——这是对早期社区建设者所承担风险和所提供价值的认可。",
     goal3Title: "透明公平的系统",
-    goal3Desc: "计划表提前发布并固定，因此每位参与者都确切知道预期结果。没有隐藏的变更，没有惊喜。",
+    goal3Desc:
+      "计划表提前发布并固定，因此每位参与者都确切知道预期结果。没有隐藏的变更，没有惊喜。",
     goal4Title: "维持生态系统",
-    goal4Desc: "逐渐减少的奖励确保推荐计划可以持续运行多年，而不会耗尽代币供应或使现有持仓贬值。",
+    goal4Desc:
+      "逐渐减少的奖励确保推荐计划可以持续运行多年，而不会耗尽代币供应或使现有持仓贬值。",
     goal5Title: "长期承诺",
-    goal5Desc: "多年的分发锁定了 2026、2027 和 2028 年的社区参与，建立了一个随平台发展的稳定且活跃的用户群。",
+    goal5Desc:
+      "多年的分发锁定了 2026、2027 和 2028 年的社区参与，建立了一个随平台发展的稳定且活跃的用户群。",
     actNowBadge: "限时最高奖励",
     ctaTitle: "今天就开始赚取 500 积分",
-    ctaDesc: "2026 年提供计划历史上最高的推荐奖励。您现在的每次推荐赚取的积分是 2028 年的 4 倍。不要等待——早期采用者的优势不会永远存在。",
+    ctaDesc:
+      "2026 年提供计划历史上最高的推荐奖励。您现在的每次推荐赚取的积分是 2028 年的 4 倍。不要等待——早期采用者的优势不会永远存在。",
     nowLabel: "现在",
     ctaButton: "立即开始推荐",
   },
@@ -913,7 +922,8 @@ export const zh = {
       },
     ],
     ctaTitle: "准备好开始赚取积分了吗？",
-    ctaDesc: "立即下载 Legacy Keeper，获取您的推荐链接，在为自己解锁高级功能的同时，分享这份安心！",
+    ctaDesc:
+      "立即下载 Legacy Keeper，获取您的推荐链接，在为自己解锁高级功能的同时，分享这份安心！",
     ctaButton: "下载并开始推荐",
     free: "免费",
   },
@@ -948,7 +958,7 @@ export const zh = {
       supply: "最大供应量",
       utility: "用途",
       utilityValue: "奖励、社区、联盟生态系统",
-      comingSoon: "即将推出",
+      comingSoon: "5KsedXbpqURW2APFoVNDjvRgHQ6RAU551uATCqUunLKT",
     },
 
     howToEarnTitle: "用户如何赚取 LKT",
@@ -1038,8 +1048,7 @@ export const zh = {
 
     ctaBadge: "⚡ 由社区驱动。构建于 Solana。",
     ctaTitle: "加入 Legacy Keeper 生态系统",
-    ctaDesc:
-      "今天就开始通过推荐、社区参与和生态活动赚取 LKT。",
+    ctaDesc: "今天就开始通过推荐、社区参与和生态活动赚取 LKT。",
     ctaButton: "开始赚取 LKT",
     ctaViewDetails: "查看代币详情",
   },

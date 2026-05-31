@@ -23,8 +23,7 @@ export const ko = {
     heroTitle: "당신의 유산을",
     heroTitleAccent: "안전하게.",
     heroTitleLine2: "사랑하는 사람들을 보호하세요.",
-    heroDesc:
-      "가장 민감한 정보를 클라우드가 아닌",
+    heroDesc: "가장 민감한 정보를 클라우드가 아닌",
     heroDescAccent: " 당신의 기기에",
     heroDescEnd: " 안전하게 보관하는 유일한 유언 및 상속 계획 앱",
     downloadOnThe: "다운로드",
@@ -165,11 +164,13 @@ export const ko = {
     desc: "개인정보 보호는 저희 서비스의 핵심입니다. Legacy Keeper가 사용자의 가장 민감한 정보를 어떻게 보호하는지 알아보세요.",
     lastUpdated: "최종 수정일: 2024년 1월 1일",
     localStorageTitle: "100% 로컬 저장소",
-    localStorageDesc: "모든 데이터는 기기에만 저장됩니다. 클라우드 업로드는 절대 없습니다.",
+    localStorageDesc:
+      "모든 데이터는 기기에만 저장됩니다. 클라우드 업로드는 절대 없습니다.",
     noDataTitle: "데이터 수집 없음",
     noDataDesc: "저희는 개인정보를 수집, 저장 또는 판매하지 않습니다.",
     fullControlTitle: "완벽한 통제권",
-    fullControlDesc: "사용자는 항상 데이터에 대한 100% 소유권과 통제권을 갖습니다.",
+    fullControlDesc:
+      "사용자는 항상 데이터에 대한 100% 소유권과 통제권을 갖습니다.",
     contentsTitle: "목차",
     sections: [
       { id: "introduction", label: "1. 서론" },
@@ -538,8 +539,7 @@ export const ko = {
     s12sub3p1:
       "귀하는 개별적으로 분쟁을 해결하는 데 동의하며, 집단 소송이나 집단 중재에 참여할 권리를 포기합니다.",
     s13Title: "13. 문의하기",
-    s13p1:
-      "본 이용약관에 관해 궁금한 점이 있으시면 저희에게 연락해 주십시오:",
+    s13p1: "본 이용약관에 관해 궁금한 점이 있으시면 저희에게 연락해 주십시오:",
     contactInfoTitle: "연락처 정보",
     addTitle: "기타 조항",
     severabilityTitle: "분리 가능성",
@@ -620,30 +620,15 @@ export const ko = {
     sections: [
       {
         title: "장례 유형",
-        items: [
-          "전통 장례식",
-          "추모 서비스",
-          "생전 기념식",
-          "가족장",
-        ],
+        items: ["전통 장례식", "추모 서비스", "생전 기념식", "가족장"],
       },
       {
         title: "안치 선호도",
-        items: [
-          "매장 장소",
-          "관 선택",
-          "화장 희망",
-          "친환경 장례 옵션",
-        ],
+        items: ["매장 장소", "관 선택", "화장 희망", "친환경 장례 옵션"],
       },
       {
         title: "특별 요청",
-        items: [
-          "음악 선택",
-          "낭독 및 기도",
-          "사진 전시",
-          "자선 기부",
-        ],
+        items: ["음악 선택", "낭독 및 기도", "사진 전시", "자선 기부"],
       },
       {
         title: "객 명단",
@@ -993,7 +978,7 @@ export const ko = {
       supply: "최대 공급량",
       utility: "유틸리티",
       utilityValue: "보상, 커뮤니티, 제휴 생태계",
-      comingSoon: "곧 출시 예정",
+      comingSoon: "5KsedXbpqURW2APFoVNDjvRgHQ6RAU551uATCqUunLKT",
     },
 
     howToEarnTitle: "LKT 획득 방법",
@@ -1046,7 +1031,8 @@ export const ko = {
     referralBadge: "🎯 추천 프로그램",
     referralTitle: "추천 보상",
     referralTitleAccent: "스케줄",
-    referralDesc: "일찍 추천하여 더 많이 획득하세요 - 보상은 시간이 지남에 따라 감소합니다!",
+    referralDesc:
+      "일찍 추천하여 더 많이 획득하세요 - 보상은 시간이 지남에 따라 감소합니다!",
     perReferral: "추천당",
     allocation: "배분",
 

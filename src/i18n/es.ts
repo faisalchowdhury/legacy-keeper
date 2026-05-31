@@ -151,7 +151,8 @@ export const es = {
     emailUs: "Envíanos un correo",
     emailSubtitle: "Ponte en contacto por correo electrónico",
     telegram: "Telegram",
-    telegramSubtitle: "Mantente conectado y al día con nuestras últimas actualizaciones",
+    telegramSubtitle:
+      "Mantente conectado y al día con nuestras últimas actualizaciones",
     callHours: "Lun-Vie de 8am a 6pm",
     visitUs: "Visítanos",
     visitSubtitle: "Ven a saludarnos a nuestra oficina",
@@ -165,11 +166,14 @@ export const es = {
     desc: "Tu privacidad es el núcleo de todo lo que hacemos. Conoce cómo Legacy Keeper protege tu información más sensible.",
     lastUpdated: "Última actualización: 1 de enero de 2024",
     localStorageTitle: "100% Almacenamiento Local",
-    localStorageDesc: "Todos los datos permanecen en tu dispositivo. Sin cargas a la nube nunca.",
+    localStorageDesc:
+      "Todos los datos permanecen en tu dispositivo. Sin cargas a la nube nunca.",
     noDataTitle: "Sin recopilación de datos",
-    noDataDesc: "No recopilamos, almacenamos ni vendemos tu información personal.",
+    noDataDesc:
+      "No recopilamos, almacenamos ni vendemos tu información personal.",
     fullControlTitle: "Control total",
-    fullControlDesc: "Eres dueño y controlas el 100% de tus datos en todo momento.",
+    fullControlDesc:
+      "Eres dueño y controlas el 100% de tus datos en todo momento.",
     contentsTitle: "Contenidos",
     sections: [
       { id: "introduction", label: "1. Introducción" },
@@ -265,7 +269,8 @@ export const es = {
     s6sub1p1:
       "Todos los datos almacenados por Legacy Keeper en tu dispositivo están encriptados usando protocolos de encriptación estándar de la industria proporcionados por los sistemas operativos iOS y Android.",
     s6sub2: "6.2 Tu responsabilidad",
-    s6sub2p1: "Como los datos se almacenan en tu dispositivo, la seguridad depende de:",
+    s6sub2p1:
+      "Como los datos se almacenan en tu dispositivo, la seguridad depende de:",
     s6sub2items: [
       "Usar un código de acceso/contraseña fuerte en el dispositivo",
       "Habilitar la autenticación biométrica (Face ID, Touch ID, huella dactilar)",
@@ -335,9 +340,11 @@ export const es = {
     desc: "Por favor, lee estos términos detenidamente antes de usar Legacy Keeper. Al usar nuestra aplicación, aceptas estar sujeto a estos términos.",
     lastUpdated: "Última actualización: 1 de enero de 2024",
     deviceOnlyTitle: "Almacenamiento solo en dispositivo",
-    deviceOnlyDesc: "Eres responsable de hacer copias de seguridad de tu dispositivo y datos.",
+    deviceOnlyDesc:
+      "Eres responsable de hacer copias de seguridad de tu dispositivo y datos.",
     noLegalTitle: "Sin asesoramiento legal",
-    noLegalDesc: "Legacy Keeper no proporciona asesoramiento legal ni financiero.",
+    noLegalDesc:
+      "Legacy Keeper no proporciona asesoramiento legal ni financiero.",
     ageTitle: "Requisito de edad",
     ageDesc: "Debes tener 18 años o más para usar Legacy Keeper.",
     contentsTitle: "Contenidos",
@@ -602,7 +609,10 @@ export const es = {
     titleAccent: "de Activos",
     desc: "Documenta cada activo que poseas en un lugar seguro. Desde bienes raíces hasta monedas digitales, mantén el control de todo lo que importa.",
     assets: [
-      { title: "Bienes Raíces", desc: "Propiedades, terrenos, casas de vacaciones" },
+      {
+        title: "Bienes Raíces",
+        desc: "Propiedades, terrenos, casas de vacaciones",
+      },
       { title: "Cuentas Bancarias", desc: "Corrientes, ahorros, depósitos" },
       { title: "Inversiones", desc: "Acciones, bonos, fondos mutuos" },
       { title: "Jubilación", desc: "Planes de pensiones, jubilación" },
@@ -967,7 +977,8 @@ export const es = {
   lkt: {
     heroBadge: "Token Oficial de la Comunidad y Recompensas",
     heroTitle: "Legacy Keeper Token",
-    heroSubtitle: "Token Oficial de la Comunidad y Recompensas del Ecosistema Legacy Keeper",
+    heroSubtitle:
+      "Token Oficial de la Comunidad y Recompensas del Ecosistema Legacy Keeper",
     builtOnSolana: "Construido en Solana",
     splToken: "Token SPL • Rápido y Bajas Comisiones",
 
@@ -994,7 +1005,7 @@ export const es = {
       supply: "Suministro Máximo",
       utility: "Utilidad",
       utilityValue: "Recompensas, Comunidad, Ecosistema de Afiliados",
-      comingSoon: "Próximamente",
+      comingSoon: "5KsedXbpqURW2APFoVNDjvRgHQ6RAU551uATCqUunLKT",
     },
 
     howToEarnTitle: "Cómo los usuarios ganan LKT",
@@ -1047,7 +1058,8 @@ export const es = {
     referralBadge: "🎯 Programa de Recomendación",
     referralTitle: "Calendario de Recompensas",
     referralTitleAccent: "por Recomendación",
-    referralDesc: "¡Gana más recomendando temprano; las recompensas disminuyen con el tiempo!",
+    referralDesc:
+      "¡Gana más recomendando temprano; las recompensas disminuyen con el tiempo!",
     perReferral: "por recomendación",
     allocation: "Asignación",
 

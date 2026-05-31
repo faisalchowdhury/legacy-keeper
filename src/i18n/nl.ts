@@ -981,7 +981,8 @@ export const nl = {
   lkt: {
     heroBadge: "Officiële Community & Beloningen Token",
     heroTitle: "Legacy Keeper Token",
-    heroSubtitle: "Officiële Community & Beloningen Token van het Legacy Keeper Ecosysteem",
+    heroSubtitle:
+      "Officiële Community & Beloningen Token van het Legacy Keeper Ecosysteem",
     builtOnSolana: "Gebouwd op Solana",
     splToken: "SPL Token • Snel & Lage Kosten",
 
@@ -1008,7 +1009,7 @@ export const nl = {
       supply: "Maximale Voorraad",
       utility: "Nut",
       utilityValue: "Beloningen, Community, Affiliate Ecosysteem",
-      comingSoon: "Binnenkort Beschikbaar",
+      comingSoon: "5KsedXbpqURW2APFoVNDjvRgHQ6RAU551uATCqUunLKT",
     },
 
     howToEarnTitle: "Hoe Gebruikers LKT Verdienen",
@@ -1061,7 +1062,8 @@ export const nl = {
     referralBadge: "🎯 Verwijzingsprogramma",
     referralTitle: "Verwijzingsbelonings",
     referralTitleAccent: "Schema",
-    referralDesc: "Verdien meer door vroeg te verwijzen - beloningen nemen af in de loop van de tijd!",
+    referralDesc:
+      "Verdien meer door vroeg te verwijzen - beloningen nemen af in de loop van de tijd!",
     perReferral: "per verwijzing",
     allocation: "Toewijzing",
 
