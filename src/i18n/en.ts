@@ -966,7 +966,8 @@ export const en = {
   lkt: {
     heroBadge: "Official Community & Rewards Token",
     heroTitle: "Legacy Keeper Token",
-    heroSubtitle: "Official Community & Rewards Token of the Legacy Keeper Ecosystem",
+    heroSubtitle:
+      "Official Community & Rewards Token of the Legacy Keeper Ecosystem",
     builtOnSolana: "Built on Solana",
     splToken: "SPL Token • Fast & Low Fees",
 
@@ -993,7 +994,7 @@ export const en = {
       supply: "Maximum Supply",
       utility: "Utility",
       utilityValue: "Rewards, Community, Affiliate Ecosystem",
-      comingSoon: "Coming Soon",
+      comingSoon: "5KsedXbpqURW2APFoVNDjvRgHQ6RAU551uATCqUunLKT",
     },
 
     howToEarnTitle: "How Users Earn LKT",

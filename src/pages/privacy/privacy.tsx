@@ -268,10 +268,10 @@ const PrivacyPolicy: React.FC = () => {
                       {p.contactInfoTitle}
                     </h3>
                     <p>
-                      <strong>Email:</strong> privacy@legacykeeper.com
+                      <strong>Email:</strong> info@legacy-keeper.app
                     </p>
                     <p>
-                      <strong>Support:</strong> info@legacykeeper.nl
+                      <strong>Support:</strong> info@legacy-keeper.app
                     </p>
                     {/* <p>
                       <strong>Address:</strong> 123 Legacy Street, San

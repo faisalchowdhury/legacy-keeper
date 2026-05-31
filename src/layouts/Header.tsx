@@ -35,6 +35,9 @@ export default function Header() {
     { code: "zh", label: "ZH", full: "中文" },
     { code: "ja", label: "JA", full: "日本語" },
     { code: "ko", label: "KO", full: "한국어" },
+    { code: "tr", label: "TR", full: "Türkçe" },
+    { code: "bn", label: "BN", full: "বাংলা" },
+    { code: "ur", label: "UR", full: "اردو" },
   ];
 
   // Close language menu when clicking outside
@@ -213,48 +216,48 @@ export default function Header() {
                 <img src={Logo} alt="Legacy Keeper Logo" className="w-18" />
               </Link>
 
-              <div className="hidden md:flex gap-8 items-center">
+              <div className="hidden lg:flex gap-6 items-center">
                 <a
                   href="#features"
                   onClick={(e) => handleNavClick(e, "features")}
-                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium"
+                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
                 >
                   {t.nav.features}
                 </a>
                 <Link
                   to="/privacy-policy"
-                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium"
+                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
                 >
                   {t.nav.privacy}
                 </Link>
                 <a
                   href="#download"
                   onClick={(e) => handleNavClick(e, "download")}
-                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium"
+                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
                 >
                   {t.nav.download}
                 </a>
                 <Link
                   to="/contact"
-                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium"
+                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
                 >
                   {t.nav.contact}
                 </Link>
                 <Link
                   to="/affiliate"
-                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium"
+                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
                 >
                   {t.nav.affiliate}
                 </Link>
                 <Link
                   to="/referral-reward"
-                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium"
+                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
                 >
                   {t.nav.referralReward}
                 </Link>
                 <Link
                   to="/legecy-keeper-token"
-                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium"
+                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
                 >
                   {t.nav.lkt}
                 </Link>
@@ -262,7 +265,7 @@ export default function Header() {
                 <div className="relative" ref={langMenuRef}>
                   <button
                     onClick={() => setLangMenuOpen(!langMenuOpen)}
-                    className="flex items-center gap-2 px-4 py-2 rounded-full border border-[#e2e8f0] bg-white shadow-sm hover:border-accent transition-all duration-300 text-sm font-semibold text-[#4b5563]"
+                    className="flex items-center gap-2 px-3 xl:px-4 py-2 rounded-full border border-[#e2e8f0] bg-white shadow-sm hover:border-accent transition-all duration-300 text-sm font-semibold text-[#4b5563]"
                   >
                     <span>
                       {languages.find((l) => l.code === language)?.label}
@@ -283,7 +286,7 @@ export default function Header() {
                   </button>
 
                   {langMenuOpen && (
-                    <div className="absolute right-0 mt-2 w-48 bg-white rounded-2xl shadow-xl border border-[#e2e8f0] py-2 z-[60] animate-in fade-in zoom-in duration-200">
+                    <div className="absolute right-0 mt-2 w-48 max-h-[70vh] overflow-y-auto bg-white rounded-2xl shadow-xl border border-[#e2e8f0] py-2 z-[60] animate-in fade-in zoom-in duration-200 custom-scrollbar">
                       <div className="grid grid-cols-1 gap-1 px-2">
                         {languages.map((lang) => (
                           <button
@@ -320,7 +323,7 @@ export default function Header() {
 
               <button
                 onClick={toggleMobileMenu}
-                className="md:hidden relative w-10 h-10 flex items-center justify-center focus:outline-none z-50"
+                className="lg:hidden relative w-10 h-10 flex items-center justify-center focus:outline-none z-50"
                 aria-label="Toggle mobile menu"
               >
                 <div className="hamburger-menu">

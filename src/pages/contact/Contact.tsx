@@ -214,10 +214,10 @@ const Contact: React.FC = () => {
                     </h4>
                     <p className="text-[#9ca3af] mb-3">{c.emailSubtitle}</p>
                     <a
-                      href="mailto:info@legacykeeper.nl"
+                      href="mailto:info@legacy-keeper.app"
                       className="text-accent hover:underline font-medium"
                     >
-                      info@legacykeeper.nl
+                      info@legacy-keeper.app
                     </a>
                   </div>
                 </div>
@@ -235,7 +235,7 @@ const Contact: React.FC = () => {
                     </h4>
                     <p className="text-[#9ca3af] mb-3">{c.telegramSubtitle}</p>
                     <a
-                      href="https://t.me/legacykeeper"
+                      href="https://www.t.me/legacykeepergroup"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-accent hover:underline font-medium inline-flex items-center gap-2"
@@ -265,7 +265,7 @@ const Contact: React.FC = () => {
                       Track your token analytics and charts
                     </p>
                     <a
-                      href="https://dexscreener.com"
+                      href="https://dexscreener.com/solana/7flkwxbejnam6vrcfsutyj8rms561lpfedn37q8kwysp"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-accent hover:underline font-medium inline-flex items-center gap-2"

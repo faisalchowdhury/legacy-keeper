@@ -200,6 +200,34 @@ const LKT: React.FC = () => {
               </div>
             ))}
           </div>
+
+          {/* DexScreener Redirect Button */}
+          <div className="mt-8 text-center">
+            <a
+              href="https://dexscreener.com/solana/7flkwxbejnam6vrcfsutyj8rms561lpfedn37q8kwysp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#1b6ef3] to-[#00b4f0] text-white font-bold rounded-full shadow-[0_8px_20px_rgba(27,110,243,0.3)] hover:shadow-[0_12px_30px_rgba(27,110,243,0.4)] hover:scale-105 transition-all duration-300 group"
+            >
+              <span className="flex items-center justify-center w-6 h-6 bg-white/20 rounded-lg group-hover:bg-white/30 transition-colors">
+                📊
+              </span>
+              dexscreener.com
+              <svg
+                className="w-5 h-5 transition-transform group-hover:translate-x-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
       </section>
 

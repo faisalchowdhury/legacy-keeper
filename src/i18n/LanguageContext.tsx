@@ -12,6 +12,9 @@ import { ar } from "./ar";
 import { ko } from "./ko";
 import { ja } from "./ja";
 import { pt } from "./pt";
+import { tr } from "./tr";
+import { bn } from "./bn";
+import { ur } from "./ur";
 
 export type Language =
   | "en"
@@ -25,7 +28,10 @@ export type Language =
   | "ar"
   | "ko"
   | "ja"
-  | "pt";
+  | "pt"
+  | "tr"
+  | "bn"
+  | "ur";
 export type Translations = typeof en;
 
 interface LanguageContextType {
@@ -51,6 +57,9 @@ const translations: Record<Language, Translations> = {
   ko,
   ja,
   pt,
+  tr,
+  bn,
+  ur,
 };
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
@@ -64,7 +73,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     localStorage.setItem("language", language);
     document.documentElement.lang = language;
-    document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
+    document.documentElement.dir =
+      language === "ar" || language === "ur" ? "rtl" : "ltr";
   }, [language]);
 
   return (

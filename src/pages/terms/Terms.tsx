@@ -312,7 +312,7 @@ const Terms: React.FC = () => {
                         <strong>Email:</strong> legal@legacykeeper.com
                       </p>
                       <p>
-                        <strong>Support:</strong> info@legacykeeper.nl
+                        <strong>Support:</strong> info@legacy-keeper.app
                       </p>
                       {/* <p>
                         <strong>Address:</strong> 123 Legacy Street, San
