@@ -843,35 +843,35 @@ export const pt = {
   },
 
   affiliate: {
-    badge: "Programa de Recompensas por Indicação",
+    badge: "Compartilhe e Ganhe Recompensas",
     title: "Compartilhe o Legacy Keeper,",
     titleAccent: "Ganhe Recompensas",
-    desc: "Ajude seus amigos e familiares a garantir seu legado enquanto ganha pontos para desbloquear recursos premium. Todos ganham ao compartilhar paz de espírito.",
-    startReferring: "Começar a Indicar",
+    desc: "Divulgue o Legacy Keeper no WhatsApp, Facebook e X (Twitter) para ganhar pontos que você pode usar para desbloquear recursos premium. Cada compartilhamento ajuda um amigo a garantir seu legado — e recompensa você.",
+    startReferring: "Começar a Compartilhar",
     howItWorks: "Como Funciona",
-    coinsPerReferral: "Pontos por Indicação",
-    unlimitedReferrals: "Indicações Ilimitadas",
+    coinsPerReferral: "Pontos por Compartilhamento",
+    unlimitedReferrals: "Compartilhamentos Ilimitados",
     premiumFeatures: "Recursos Premium",
-    howTitle: "Como o Programa",
-    howTitleAccent: "de Indicação",
+    howTitle: "Como o",
+    howTitleAccent: "Compartilhamento",
     howTitleEnd: "Funciona",
     howDesc:
-      "Simples, transparente e recompensador. Comece a ganhar Pontos em apenas 3 passos fáceis.",
+      "Simples, transparente e recompensador. Comece a ganhar pontos em apenas 3 passos fáceis.",
     steps: [
       {
         step: "01",
-        title: "Compartilhe Seu Link",
-        desc: "Pegue seu link de indicação exclusivo no aplicativo e compartilhe com amigos, familiares ou nas redes sociais.",
+        title: "Abra o Menu de Compartilhamento",
+        desc: "Toque no botão de compartilhar no aplicativo Legacy Keeper para ver suas opções de compartilhamento.",
       },
       {
         step: "02",
-        title: "Eles se Cadastram",
-        desc: "Quando alguém baixar o Legacy Keeper usando seu link e criar uma conta, você já está no caminho!",
+        title: "Compartilhe nas Redes Sociais",
+        desc: "Compartilhe o aplicativo pelo WhatsApp, Facebook ou X (Twitter) com um único toque.",
       },
       {
         step: "03",
-        title: "Ganhe 500 Pontos",
-        desc: "Você recebe instantaneamente 500 Pontos assim que eles completarem a primeira configuração de testamento.",
+        title: "Ganhe 500 Pontos por Compartilhamento",
+        desc: "Você recebe instantaneamente 500 pontos por cada ação de compartilhamento. Comece a desbloquear recursos!",
       },
     ],
     unlockTitle: "Desbloqueie Recursos",
@@ -912,10 +912,10 @@ export const pt = {
       },
     ],
     proTip: "Dica Profissional:",
-    proTipText: "Indique apenas",
-    proTipFriends: "2 amigos",
-    proTipEnd: "para desbloquear os Desejos Funerários!",
-    whyTitle: "Por que Indicar o",
+    proTipText: "Compartilhe no",
+    proTipFriends: "WhatsApp, Facebook e X",
+    proTipEnd: "para ganhar 500 pontos por cada!",
+    whyTitle: "Por que Compartilhar o",
     whyTitleAccent: "Legacy Keeper?",
     benefits: [
       {
@@ -924,7 +924,7 @@ export const pt = {
       },
       {
         title: "Ganhe Enquanto Compartilha",
-        desc: "Seja recompensado com Pontos por cada indicação bem-sucedida — sem limites!",
+        desc: "Ganhe 500 pontos por cada compartilhamento no WhatsApp, Facebook ou X — sem limites!",
       },
       {
         title: "Desbloqueie Recursos Premium",
@@ -939,34 +939,34 @@ export const pt = {
     faqTitleAccent: "Frequentes",
     faqs: [
       {
-        q: "Como obtenho meu link de indicação?",
-        a: "Ao baixar o Legacy Keeper e criar uma conta, você encontrará seu link de indicação exclusivo na seção 'Indicações' do aplicativo. Basta copiar e compartilhar!",
+        q: "Como compartilho o Legacy Keeper?",
+        a: "Abra o aplicativo Legacy Keeper e toque no botão de compartilhar. Você pode compartilhar o aplicativo diretamente pelo WhatsApp, Facebook ou X (Twitter).",
       },
       {
-        q: "Quando recebo meus Pontos?",
-        a: "Você recebe 500 Pontos instantaneamente quando seu amigo indicado completa a primeira configuração de testamento no aplicativo.",
+        q: "Quantos pontos eu ganho por compartilhamento?",
+        a: "Você recebe 500 pontos por cada ação de compartilhamento no WhatsApp, Facebook ou X. Os pontos são adicionados automaticamente à sua conta.",
       },
       {
-        q: "Existe um limite de pessoas que posso indicar?",
-        a: "Não! Não há limite. Indique quantas pessoas quiser e continue ganhando Pontos.",
+        q: "Existe um limite de quanto posso compartilhar?",
+        a: "Não! Não há limite. Compartilhe quantas vezes quiser no WhatsApp, Facebook e X e continue ganhando pontos. Quanto mais você compartilha, mais recursos desbloqueia!",
       },
       {
-        q: "Os Pontos expiram?",
-        a: "Não, seus Pontos ganhos nunca expiram. Você pode acumulá-los e usá-los quando estiver pronto.",
+        q: "Os pontos expiram?",
+        a: "Não, seus pontos ganhos nunca expiram. Você pode acumulá-los e usá-los quando estiver pronto para desbloquear recursos.",
       },
       {
-        q: "Posso compartilhar meu link nas redes sociais?",
-        a: "Com certeza! Compartilhe seu link em qualquer lugar — Facebook, Twitter, Instagram, e-mail, mensagem de texto ou pessoalmente.",
+        q: "Em quais plataformas posso compartilhar?",
+        a: "Você pode compartilhar o Legacy Keeper pelo WhatsApp, Facebook e X (Twitter) diretamente do aplicativo — cada ação de compartilhamento rende 500 pontos.",
       },
       {
-        q: "E se meu amigo já tiver o aplicativo?",
-        a: "Eles precisam baixar e se cadastrar usando seu link exclusivo para contar como uma indicação bem-sucedida. Usuários existentes não contam.",
+        q: "Preciso de um link de indicação para ganhar pontos?",
+        a: "Nenhum link de indicação ou cadastro é necessário. Você ganha 500 pontos por cada ação de compartilhamento no WhatsApp, Facebook ou X — basta compartilhar e ganhar.",
       },
     ],
     ctaTitle: "Pronto para Começar a Ganhar?",
     ctaDesc:
-      "Baixe o Legacy Keeper agora, pegue seu link de indicação e comece a compartilhar o presente da paz de espírito enquanto desbloqueia recursos premium para você!",
-    ctaButton: "Baixar e Começar a Indicar",
+      "Baixe o Legacy Keeper agora e compartilhe-o no WhatsApp, Facebook e X para começar a ganhar pontos enquanto desbloqueia recursos premium para você!",
+    ctaButton: "Baixar e Começar a Compartilhar",
     free: "Grátis",
   },
 

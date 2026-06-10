@@ -3,13 +3,7 @@ import { Link } from "react-router";
 import Header from "../../layouts/Header";
 import Footer from "../../layouts/Footer";
 import { useLanguage } from "../../i18n/LanguageContext";
-import {
-  PieChart,
-  Pie,
-  Cell,
-  ResponsiveContainer,
-  Tooltip,
-} from "recharts";
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
 import lkt from "../../assets/lkt.png";
 const LKT: React.FC = () => {
   const { t } = useLanguage();
@@ -17,13 +11,43 @@ const LKT: React.FC = () => {
 
   // Tokenomics data for the round pie chart
   const tokenomicsData = [
-    { name: l.allocationItems.referral, value: 20, color: "#1b6ef3", icon: "🎁" },
+    {
+      name: l.allocationItems.referral,
+      value: 20,
+      color: "#1b6ef3",
+      icon: "🎁",
+    },
     { name: l.allocationItems.team, value: 20, color: "#6366f1", icon: "👥" },
-    { name: l.allocationItems.marketing, value: 15, color: "#8b5cf6", icon: "📈" },
-    { name: l.allocationItems.liquidity, value: 15, color: "#a855f7", icon: "💧" },
-    { name: l.allocationItems.reserve, value: 10, color: "#ec4899", icon: "🏦" },
-    { name: l.allocationItems.ecosystem, value: 10, color: "#f43f5e", icon: "🌿" },
-    { name: l.allocationItems.community, value: 10, color: "#f97316", icon: "🤝" },
+    {
+      name: l.allocationItems.marketing,
+      value: 15,
+      color: "#8b5cf6",
+      icon: "📈",
+    },
+    {
+      name: l.allocationItems.liquidity,
+      value: 15,
+      color: "#a855f7",
+      icon: "💧",
+    },
+    {
+      name: l.allocationItems.reserve,
+      value: 10,
+      color: "#ec4899",
+      icon: "🏦",
+    },
+    {
+      name: l.allocationItems.ecosystem,
+      value: 10,
+      color: "#f43f5e",
+      icon: "🌿",
+    },
+    {
+      name: l.allocationItems.community,
+      value: 10,
+      color: "#f97316",
+      icon: "🤝",
+    },
   ];
 
   // Custom Tooltip
@@ -39,7 +63,9 @@ const LKT: React.FC = () => {
             <span className="text-3xl font-black text-[#1b6ef3]">
               {payload[0].value}%
             </span>
-            <span className="text-sm text-[#6b7280]">{l.allocation.toLowerCase()}</span>
+            <span className="text-sm text-[#6b7280]">
+              {l.allocation.toLowerCase()}
+            </span>
           </div>
           <div className="w-full h-1.5 bg-[#f1f5f9] rounded-full mt-2 overflow-hidden">
             <div
@@ -119,9 +145,7 @@ const LKT: React.FC = () => {
             </div>
             <span className="text-sm font-semibold">{l.builtOnSolana}</span>
             <span className="w-px h-4 bg-[#e2e8f0]"></span>
-            <span className="text-sm text-[#6b7280]">
-              {l.splToken}
-            </span>
+            <span className="text-sm text-[#6b7280]">{l.splToken}</span>
           </div>
         </div>
       </section>
@@ -243,11 +267,15 @@ const LKT: React.FC = () => {
               {l.howToEarnDesc}
             </p>
             <div className="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full border border-[#e2e8f0]">
-              <span className="font-bold text-[#1b6ef3]">{l.conversionRate}</span>
-              <span>1,000 Points = 1 LKT</span>
+              <span className="font-bold text-[#1b6ef3]">
+                {l.conversionRate}
+              </span>
+              <span>1 Points = 1 LKT</span>
               <span className="w-px h-4 bg-[#e2e8f0]"></span>
-              <span className="font-bold text-[#1b6ef3]">{l.minimumRedemption}</span>
-              <span>50,000 Points = 50 LKT</span>
+              <span className="font-bold text-[#1b6ef3]">
+                {l.minimumRedemption}
+              </span>
+              <span>10,000 Points = 10,000 LKT</span>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -316,7 +344,9 @@ const LKT: React.FC = () => {
                 {/* Center text */}
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
                   <div className="text-3xl font-black text-[#1e2332]">100%</div>
-                  <div className="text-xs text-[#6b7280]">{l.totalSupply.replace(":", "")}</div>
+                  <div className="text-xs text-[#6b7280]">
+                    {l.totalSupply.replace(":", "")}
+                  </div>
                 </div>
               </div>
               <div className="flex flex-wrap justify-center gap-2 mt-4">
@@ -392,7 +422,8 @@ const LKT: React.FC = () => {
               {l.referralBadge}
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1e2332] mb-4">
-              {l.referralTitle} <span className="gradient-text">{l.referralTitleAccent}</span>
+              {l.referralTitle}{" "}
+              <span className="gradient-text">{l.referralTitleAccent}</span>
             </h2>
             <p className="text-lg text-[#6b7280] max-w-2xl mx-auto">
               {l.referralDesc}
@@ -413,7 +444,9 @@ const LKT: React.FC = () => {
                 <div className="text-2xl font-extrabold text-[#1e2332] mb-1">
                   {year.reward}
                 </div>
-                <div className="text-sm text-[#9ca3af] mb-4">{l.perReferral}</div>
+                <div className="text-sm text-[#9ca3af] mb-4">
+                  {l.perReferral}
+                </div>
                 <div className="mb-3">
                   <div className="flex justify-between text-xs text-[#9ca3af] mb-1">
                     <span>{l.allocation}</span>
@@ -473,9 +506,7 @@ const LKT: React.FC = () => {
                   {l.securityTitle}
                 </h3>
               </div>
-              <p className="text-[#6b7280] leading-relaxed">
-                {l.securityDesc}
-              </p>
+              <p className="text-[#6b7280] leading-relaxed">{l.securityDesc}</p>
             </div>
             <div className="bg-white rounded-2xl p-6 border border-[#e2e8f0]">
               <div className="flex items-center gap-3 mb-4">
@@ -486,9 +517,7 @@ const LKT: React.FC = () => {
                   {l.visionTitle}
                 </h3>
               </div>
-              <p className="text-[#6b7280] leading-relaxed">
-                {l.visionDesc}
-              </p>
+              <p className="text-[#6b7280] leading-relaxed">{l.visionDesc}</p>
             </div>
           </div>
         </div>
@@ -532,7 +561,7 @@ const LKT: React.FC = () => {
               </svg>
             </Link>
             <Link
-              to="/legecy-keeper-token"
+              to="https://dexscreener.com/"
               className="inline-flex items-center gap-3 px-8 py-4 bg-white/10 border border-white/30 text-white font-bold rounded-full hover:bg-white/20 transition-all duration-300"
             >
               {l.ctaViewDetails}

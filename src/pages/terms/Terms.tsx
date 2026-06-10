@@ -309,7 +309,7 @@ const Terms: React.FC = () => {
                         {tr.contactInfoTitle}
                       </h3>
                       <p>
-                        <strong>Email:</strong> legal@legacykeeper.com
+                        <strong>Email:</strong> info@legacy-keeper.app
                       </p>
                       <p>
                         <strong>Support:</strong> info@legacy-keeper.app

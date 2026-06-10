@@ -853,35 +853,35 @@ export const fr = {
   },
 
   affiliate: {
-    badge: "Programme de récompenses de parrainage",
+    badge: "Partagez et gagnez des récompenses",
     title: "Partagez Legacy Keeper,",
     titleAccent: "gagnez des récompenses",
-    desc: "Aidez vos amis et votre famille à sécuriser leur héritage tout en gagnant des points pour débloquer des fonctionnalités premium. Tout le monde y gagne quand on partage la tranquillité d'esprit.",
-    startReferring: "Commencer à parrainer",
+    desc: "Faites connaître Legacy Keeper sur WhatsApp, Facebook et X (Twitter) pour gagner des points que vous pourrez utiliser afin de débloquer des fonctionnalités premium. Chaque partage aide un ami à sécuriser son héritage — et vous récompense.",
+    startReferring: "Commencer à partager",
     howItWorks: "Comment ça fonctionne",
-    coinsPerReferral: "Points par parrainage",
-    unlimitedReferrals: "Parrainages illimités",
+    coinsPerReferral: "Points par partage",
+    unlimitedReferrals: "Partage illimité",
     premiumFeatures: "Fonctionnalités Premium",
-    howTitle: "Comment le",
-    howTitleAccent: "programme de parrainage",
+    howTitle: "Comment",
+    howTitleAccent: "le partage",
     howTitleEnd: "fonctionne",
     howDesc:
       "Simple, transparent et gratifiant. Commencez à gagner des points en seulement 3 étapes faciles.",
     steps: [
       {
         step: "01",
-        title: "Partagez votre lien",
-        desc: "Obtenez votre lien de parrainage unique depuis l'application et partagez-le avec vos amis, votre famille ou sur les réseaux sociaux.",
+        title: "Ouvrez le menu de partage",
+        desc: "Appuyez sur le bouton de partage dans l'application Legacy Keeper pour voir vos options de partage.",
       },
       {
         step: "02",
-        title: "Ils s'inscrivent",
-        desc: "Quand quelqu'un télécharge Legacy Keeper via votre lien et crée son compte, vous y êtes presque !",
+        title: "Partagez sur les réseaux sociaux",
+        desc: "Partagez l'application via WhatsApp, Facebook ou X (Twitter) en un seul appui.",
       },
       {
         step: "03",
-        title: "Gagnez 500 points",
-        desc: "Vous recevez instantanément 500 points dès qu'ils terminent la configuration de leur premier testament. Commencez à débloquer !",
+        title: "Gagnez 500 points par partage",
+        desc: "Vous recevez instantanément 500 points pour chaque action de partage. Commencez à débloquer des fonctionnalités !",
       },
     ],
     unlockTitle: "Débloquez des fonctionnalités",
@@ -922,10 +922,10 @@ export const fr = {
       },
     ],
     proTip: "Conseil de pro :",
-    proTipText: "Parrainez seulement",
-    proTipFriends: "2 amis",
-    proTipEnd: "pour débloquer les volontés funéraires !",
-    whyTitle: "Pourquoi parrainer",
+    proTipText: "Partagez sur",
+    proTipFriends: "WhatsApp, Facebook et X",
+    proTipEnd: "pour gagner 500 points à chaque fois !",
+    whyTitle: "Pourquoi partager",
     whyTitleAccent: "Legacy Keeper ?",
     benefits: [
       {
@@ -934,7 +934,7 @@ export const fr = {
       },
       {
         title: "Gagnez en partageant",
-        desc: "Soyez récompensé par des points pour chaque parrainage réussi — sans limite !",
+        desc: "Obtenez 500 points pour chaque partage sur WhatsApp, Facebook ou X — sans limite !",
       },
       {
         title: "Débloquez le Premium",
@@ -949,34 +949,34 @@ export const fr = {
     faqTitleAccent: "Questions",
     faqs: [
       {
-        q: "Comment obtenir mon lien de parrainage ?",
-        a: "Une fois l'application téléchargée et votre compte créé, vous trouverez votre lien unique dans la section 'Parrainages'. Copiez-le et partagez-le !",
+        q: "Comment partager Legacy Keeper ?",
+        a: "Ouvrez l'application Legacy Keeper et appuyez sur le bouton de partage. Vous pouvez partager l'application directement via WhatsApp, Facebook ou X (Twitter).",
       },
       {
-        q: "Quand recevrai-je mes points ?",
-        a: "Vous recevez 500 points instantanément dès que votre ami parrainé termine sa première configuration de testament dans l'application.",
+        q: "Combien de points est-ce que je gagne par partage ?",
+        a: "Vous recevez 500 points pour chaque action de partage sur WhatsApp, Facebook ou X. Les points sont automatiquement ajoutés à votre compte.",
       },
       {
-        q: "Y a-t-il une limite de parrainages ?",
-        a: "Non ! Il n'y a aucune limite. Parrainez autant de personnes que vous le souhaitez et continuez à gagner des points.",
+        q: "Y a-t-il une limite au nombre de partages ?",
+        a: "Non ! Il n'y a aucune limite. Partagez aussi souvent que vous le souhaitez sur WhatsApp, Facebook et X et continuez à gagner des points. Plus vous partagez, plus vous débloquez de fonctionnalités !",
       },
       {
         q: "Les points expirent-ils ?",
-        a: "Non, vos points gagnés n'expirent jamais.",
+        a: "Non, vos points gagnés n'expirent jamais. Vous pouvez les accumuler et les utiliser quand vous êtes prêt à débloquer des fonctionnalités.",
       },
       {
-        q: "Puis-je partager sur les réseaux sociaux ?",
-        a: "Absolument ! Partagez votre lien partout : Facebook, Twitter, Instagram, e-mail, SMS ou même en personne.",
+        q: "Sur quelles plateformes puis-je partager ?",
+        a: "Vous pouvez partager Legacy Keeper via WhatsApp, Facebook et X (Twitter) directement depuis l'application — chaque action de partage vous rapporte 500 points.",
       },
       {
-        q: "Et si mon ami a déjà l'application ?",
-        a: "Il doit télécharger et s'inscrire via votre lien unique pour que cela compte comme un parrainage réussi.",
+        q: "Ai-je besoin d'un lien de parrainage pour gagner des points ?",
+        a: "Aucun lien de parrainage ni inscription requis. Vous gagnez 500 points pour chaque action de partage sur WhatsApp, Facebook ou X — il suffit de partager et de gagner.",
       },
     ],
     ctaTitle: "Prêt à commencer à gagner ?",
     ctaDesc:
-      "Téléchargez Legacy Keeper maintenant, obtenez votre lien de parrainage et commencez à partager la tranquillité d'esprit !",
-    ctaButton: "Télécharger & Parrainer",
+      "Téléchargez Legacy Keeper maintenant et partagez-le sur WhatsApp, Facebook et X pour commencer à gagner des points tout en débloquant des fonctionnalités premium pour vous-même !",
+    ctaButton: "Télécharger & Commencer à partager",
     free: "Gratuit",
   },
 

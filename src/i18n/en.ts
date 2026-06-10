@@ -836,35 +836,35 @@ export const en = {
   },
 
   affiliate: {
-    badge: "Referral Rewards Program",
+    badge: "Share & Earn Rewards",
     title: "Share Legacy Keeper,",
     titleAccent: "Earn Rewards",
-    desc: "Help your friends and family secure their legacy while earning points to unlock premium features. Everyone wins when you share the gift of peace of mind.",
-    startReferring: "Start Referring",
+    desc: "Spread the word about Legacy Keeper on WhatsApp, Facebook, and X (Twitter) to earn points you can use to unlock premium features. Every share helps a friend secure their legacy—and rewards you.",
+    startReferring: "Start Sharing",
     howItWorks: "How It Works",
-    coinsPerReferral: "Points Per Referral",
-    unlimitedReferrals: "Unlimited Referrals",
+    coinsPerReferral: "Points Per Share",
+    unlimitedReferrals: "Unlimited Sharing",
     premiumFeatures: "Premium Features",
-    howTitle: "How the",
-    howTitleAccent: "Referral Program",
+    howTitle: "How",
+    howTitleAccent: "Sharing",
     howTitleEnd: "Works",
     howDesc:
-      "Simple, transparent, and rewarding. Start earning Points in just 3 easy steps.",
+      "Simple, transparent, and rewarding. Start earning points in just 3 easy steps.",
     steps: [
       {
         step: "01",
-        title: "Share Your Link",
-        desc: "Get your unique referral link from the app and share it with friends, family, or on social media.",
+        title: "Open the Share Menu",
+        desc: "Tap the share button in the Legacy Keeper app to see your sharing options.",
       },
       {
         step: "02",
-        title: "They Sign Up",
-        desc: "When someone downloads Legacy Keeper using your link and creates their account, you're on your way!",
+        title: "Share on Social Media",
+        desc: "Share the app through WhatsApp, Facebook, or X (Twitter) with a single tap.",
       },
       {
         step: "03",
-        title: "Earn 500 Points",
-        desc: "You instantly receive 500 Points once they complete their first will setup. Start unlocking features!",
+        title: "Earn 500 Points Per Share",
+        desc: "You instantly receive 500 points for each sharing action. Start unlocking features!",
       },
     ],
     unlockTitle: "Unlock Premium",
@@ -905,10 +905,10 @@ export const en = {
       },
     ],
     proTip: "Pro Tip:",
-    proTipText: "Refer just",
-    proTipFriends: "2 friends",
-    proTipEnd: "to unlock Funeral Wishes!",
-    whyTitle: "Why Refer",
+    proTipText: "Share on",
+    proTipFriends: "WhatsApp, Facebook & X",
+    proTipEnd: "to earn 500 points for each!",
+    whyTitle: "Why Share",
     whyTitleAccent: "Legacy Keeper?",
     benefits: [
       {
@@ -917,7 +917,7 @@ export const en = {
       },
       {
         title: "Earn While You Share",
-        desc: "Get rewarded with Points for every successful referral—no limits!",
+        desc: "Get 500 points for every share on WhatsApp, Facebook, or X—no limits!",
       },
       {
         title: "Unlock Premium Features",
@@ -932,34 +932,34 @@ export const en = {
     faqTitleAccent: "Questions",
     faqs: [
       {
-        q: "How do I get my referral link?",
-        a: "Once you download Legacy Keeper and create an account, you'll find your unique referral link in the 'Referrals' section of the app. Simply copy and share!",
+        q: "How do I share Legacy Keeper?",
+        a: "Open the Legacy Keeper app and tap the share button. You can share the app directly through WhatsApp, Facebook, or X (Twitter).",
       },
       {
-        q: "When do I receive my Points?",
-        a: "You receive 500 Points instantly when your referred friend completes their first will setup in the app. The Points are automatically added to your account.",
+        q: "How many points do I earn per share?",
+        a: "You receive 500 points for each sharing action on WhatsApp, Facebook, or X. The points are automatically added to your account.",
       },
       {
-        q: "Is there a limit to how many people I can refer?",
-        a: "Nope! There's no limit. Refer as many people as you like and keep earning Points. The more you share, the more features you unlock!",
+        q: "Is there a limit to how much I can share?",
+        a: "Nope! There's no limit. Share as often as you like across WhatsApp, Facebook, and X and keep earning points. The more you share, the more features you unlock!",
       },
       {
-        q: "Do Points expire?",
-        a: "No, your earned Points never expire. You can save them up and use them whenever you're ready to unlock features.",
+        q: "Do points expire?",
+        a: "No, your earned points never expire. You can save them up and use them whenever you're ready to unlock features.",
       },
       {
-        q: "Can I share my referral link on social media?",
-        a: "Absolutely! Share your link anywhere—Facebook, Twitter, Instagram, email, text message, or even in person. Spread the word!",
+        q: "Which platforms can I share on?",
+        a: "You can share Legacy Keeper through WhatsApp, Facebook, and X (Twitter) directly from the app—each sharing action earns you 500 points.",
       },
       {
-        q: "What if my friend already has the app?",
-        a: "They need to download and sign up using your unique referral link to count as a successful referral. Existing users won't count toward your rewards.",
+        q: "Do I need a referral link to earn points?",
+        a: "No referral links or sign-ups required. You earn 500 points for each sharing action on WhatsApp, Facebook, or X—just share and earn.",
       },
     ],
     ctaTitle: "Ready to Start Earning?",
     ctaDesc:
-      "Download Legacy Keeper now, get your referral link, and start sharing the gift of peace of mind while unlocking premium features for yourself!",
-    ctaButton: "Download & Start Referring",
+      "Download Legacy Keeper now and share it on WhatsApp, Facebook, and X to start earning points while unlocking premium features for yourself!",
+    ctaButton: "Download & Start Sharing",
     free: "Free",
   },
 

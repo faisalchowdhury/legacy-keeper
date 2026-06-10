@@ -12,16 +12,49 @@ import ScreenPortugese from "../../assets/Screen_portugese.png";
 import ScreenTurkey from "../../assets/Screen_Turkey.png";
 import ScreenBangla from "../../assets/Screen_Bangla.png";
 import ScreenUrdu from "../../assets/Screen_Urdu.png";
+import ScreenGerman from "../../assets/German.png";
+import ScreenRussian from "../../assets/russian.png";
+import ScreenMandarin from "../../assets/Manderin.png";
 
 import StatsCounterSection from "../../components/StatsCounterSection";
 import Header from "../../layouts/Header";
 import Footer from "../../layouts/Footer";
 import FeaturesSection from "../../components/FeturedSection";
 import { useLanguage } from "../../i18n/LanguageContext";
+import { useRef } from "react";
+
+// Languages for the mobile app-style preview slider
+const previewLanguages = [
+  { code: "en", full: "English", flag: "gb" },
+  { code: "nl", full: "Nederlands", flag: "nl" },
+  { code: "de", full: "Deutsch", flag: "de" },
+  { code: "fr", full: "Français", flag: "fr" },
+  { code: "es", full: "Español", flag: "es" },
+  { code: "pt", full: "Português", flag: "pt" },
+  { code: "ru", full: "Русский", flag: "ru" },
+  { code: "ar", full: "العربية", flag: "sa" },
+  { code: "hi", full: "हिन्दी", flag: "in" },
+  { code: "zh", full: "中文", flag: "cn" },
+  { code: "ja", full: "日本語", flag: "jp" },
+  { code: "ko", full: "한국어", flag: "kr" },
+  { code: "tr", full: "Türkçe", flag: "tr" },
+  { code: "bn", full: "বাংলা", flag: "bd" },
+  { code: "ur", full: "اردو", flag: "pk" },
+];
 
 const LandingPage: React.FC = () => {
-  const { t, language } = useLanguage();
+  const { t, language, setLanguage } = useLanguage();
   const l = t.landing;
+
+  // Swipe / arrows cycle the banner through each language preview
+  const handlePreviewSwipe = (dir: number) => {
+    const idx = previewLanguages.findIndex((pl) => pl.code === language);
+    const nextIdx =
+      (idx + dir + previewLanguages.length) % previewLanguages.length;
+    setLanguage(previewLanguages[nextIdx].code as any);
+  };
+
+  const touchStartX = useRef<number>(0);
 
   // Dynamic Hero Image based on language
   const getHeroImage = () => {
@@ -50,8 +83,14 @@ const LandingPage: React.FC = () => {
         return ScreenBangla;
       case "ur":
         return ScreenUrdu;
+      case "de":
+        return ScreenGerman;
+      case "ru":
+        return ScreenRussian;
+      case "zh":
+        return ScreenMandarin;
       default:
-        return Home; // Default for de, ru, zh
+        return Home;
     }
   };
 
@@ -60,7 +99,7 @@ const LandingPage: React.FC = () => {
       <Header />
       <div className="main">
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center pt-24 pb-16 lg:pt-32 lg:pb-20 overflow-hidden bg-white">
+        <section className="relative lg:min-h-screen flex items-center pt-20 pb-14 lg:pt-32 lg:pb-20 overflow-hidden bg-white">
           <div className="hero-background absolute inset-0 z-0"></div>
           <div
             className="parallax-circle-1"
@@ -75,12 +114,77 @@ const LandingPage: React.FC = () => {
             <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
               {/* Left Column */}
               <div className="flex-1 w-full lg:w-1/2 animate-fadeInUp">
-                <div className="hero-badge inline-flex items-center gap-2 px-6 py-3 bg-accent/8 border border-accent/20 rounded-full text-sm font-semibold text-accent mb-8 shadow-sm">
+                {/* Mobile App-Style Banner Slider (mobile only, replaces hero text) */}
+                <div className="lg:hidden w-full mb-10">
+                  <div
+                    className="app-banner"
+                    onTouchStart={(e) => {
+                      touchStartX.current = e.touches[0].clientX;
+                    }}
+                    onTouchEnd={(e) => {
+                      const dx =
+                        e.changedTouches[0].clientX - touchStartX.current;
+                      if (Math.abs(dx) > 40)
+                        handlePreviewSwipe(dx < 0 ? 1 : -1);
+                    }}
+                  >
+                    <div
+                      key={language}
+                      className="app-banner-img animate-screenFade"
+                      style={{ backgroundImage: `url(${getHeroImage()})` }}
+                      role="img"
+                      aria-label="Legacy Keeper App Preview"
+                    />
+
+                    <button
+                      type="button"
+                      aria-label="Previous"
+                      onClick={() => handlePreviewSwipe(-1)}
+                      className="app-preview-arrow app-preview-arrow-left"
+                    >
+                      <svg
+                        className="w-5 h-5"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2.5}
+                          d="M15 19l-7-7 7-7"
+                        />
+                      </svg>
+                    </button>
+                    <button
+                      type="button"
+                      aria-label="Next"
+                      onClick={() => handlePreviewSwipe(1)}
+                      className="app-preview-arrow app-preview-arrow-right"
+                    >
+                      <svg
+                        className="w-5 h-5"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2.5}
+                          d="M9 5l7 7-7 7"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+
+                <div className="hero-badge hidden lg:inline-flex items-center gap-2 px-6 py-3 bg-accent/8 border border-accent/20 rounded-full text-sm font-semibold text-accent mb-8 shadow-sm">
                   <span className="w-2 h-2 bg-accent rounded-full animate-pulse"></span>
                   {l.heroBadge}
                 </div>
 
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-tight mb-8 tracking-tight text-[#1e2332]">
+                <h1 className="hidden lg:block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-tight mb-8 tracking-tight text-[#1e2332]">
                   {l.heroTitle}{" "}
                   <span className="gradient-text-animated">
                     {l.heroTitleAccent}
@@ -89,7 +193,7 @@ const LandingPage: React.FC = () => {
                   <span className="gradient-text">{l.heroTitleLine2}</span>
                 </h1>
 
-                <p className="text-lg sm:text-xl text-[#6b7280] mb-12 leading-relaxed max-w-2xl">
+                <p className="hidden lg:block text-lg sm:text-xl text-[#6b7280] mb-12 leading-relaxed max-w-2xl">
                   {l.heroDesc}
                   <span className="text-accent font-semibold">
                     {l.heroDescAccent}

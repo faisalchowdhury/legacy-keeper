@@ -803,34 +803,34 @@ export const zh = {
   },
 
   affiliate: {
-    badge: "推荐奖励计划",
+    badge: "分享并赚取奖励",
     title: "分享 Legacy Keeper,",
     titleAccent: "赚取奖励",
-    desc: "帮助您的朋友和家人保障他们的遗产，同时赚取积分以解锁高级功能。分享这份安心，每个人都是赢家。",
-    startReferring: "开始推荐",
+    desc: "在 WhatsApp、Facebook 和 X (Twitter) 上向大家介绍 Legacy Keeper，赚取积分以解锁高级功能。每一次分享都能帮助朋友保障他们的遗产，同时给您带来奖励。",
+    startReferring: "开始分享",
     howItWorks: "运作方式",
-    coinsPerReferral: "每次推荐积分",
-    unlimitedReferrals: "无限推荐",
+    coinsPerReferral: "每次分享积分",
+    unlimitedReferrals: "无限分享",
     premiumFeatures: "高级功能",
     howTitle: "了解",
-    howTitleAccent: "推荐计划",
+    howTitleAccent: "分享",
     howTitleEnd: "如何运作",
     howDesc: "简单、透明且回报丰厚。只需 3 个简单步骤即可开始赚取积分。",
     steps: [
       {
         step: "01",
-        title: "分享您的链接",
-        desc: "从应用中获取您的专属推荐链接，并与朋友、家人或在社交媒体上分享。",
+        title: "打开分享菜单",
+        desc: "在 Legacy Keeper 应用中点击分享按钮，查看您的分享选项。",
       },
       {
         step: "02",
-        title: "他们注册",
-        desc: "当有人使用您的链接下载 Legacy Keeper 并创建他们的帐户时，您就成功了一半！",
+        title: "在社交媒体上分享",
+        desc: "只需轻轻一点，即可通过 WhatsApp、Facebook 或 X (Twitter) 分享应用。",
       },
       {
         step: "03",
-        title: "赚取 500 积分",
-        desc: "一旦他们完成第一次遗嘱设置，您将立即收到 500 积分。开始解锁功能吧！",
+        title: "每次分享赚取 500 积分",
+        desc: "每次分享操作您都会立即获得 500 积分。开始解锁功能吧！",
       },
     ],
     unlockTitle: "解锁高级",
@@ -870,10 +870,10 @@ export const zh = {
       },
     ],
     proTip: "专家提示：",
-    proTipText: "只需推荐",
-    proTipFriends: "2 位朋友",
-    proTipEnd: "即可解锁葬礼愿望！",
-    whyTitle: "为什么推荐",
+    proTipText: "在",
+    proTipFriends: "WhatsApp、Facebook 和 X",
+    proTipEnd: "上分享，每次均可赚取 500 积分！",
+    whyTitle: "为什么分享",
     whyTitleAccent: "Legacy Keeper？",
     benefits: [
       {
@@ -882,7 +882,7 @@ export const zh = {
       },
       {
         title: "分享即赚取",
-        desc: "每次成功推荐均可获得积分奖励——没有限制！",
+        desc: "每次在 WhatsApp、Facebook 或 X 上分享均可获得 500 积分——没有限制！",
       },
       {
         title: "解锁高级功能",
@@ -897,34 +897,34 @@ export const zh = {
     faqTitleAccent: "解答",
     faqs: [
       {
-        q: "如何获取我的推荐链接？",
-        a: "下载 Legacy Keeper 并创建帐户后，您可以在应用的“推荐”部分找到您的专属推荐链接。只需复制并分享即可！",
+        q: "我该如何分享 Legacy Keeper？",
+        a: "打开 Legacy Keeper 应用并点击分享按钮。您可以直接通过 WhatsApp、Facebook 或 X (Twitter) 分享应用。",
       },
       {
-        q: "我什么时候能收到积分？",
-        a: "当您推荐的朋友在应用中完成第一次遗嘱设置时，您会立即收到 500 积分。积分会自动添加到您的帐户中。",
+        q: "每次分享可以赚取多少积分？",
+        a: "每次在 WhatsApp、Facebook 或 X 上分享，您都会获得 500 积分。积分会自动添加到您的帐户中。",
       },
       {
-        q: "我可以推荐的人数有限制吗？",
-        a: "没有！没有限制。推荐人数不限，持续赚取积分。分享越多，解锁功能越多！",
+        q: "我的分享次数有限制吗？",
+        a: "没有！没有任何限制。您可以随心所欲地在 WhatsApp、Facebook 和 X 上分享，持续赚取积分。分享越多，解锁的功能越多！",
       },
       {
         q: "积分会过期吗？",
         a: "不会，您赚取的积分永不过期。您可以积攒积分，并在准备好解锁功能时随时使用。",
       },
       {
-        q: "我可以在社交媒体上分享我的推荐链接吗？",
-        a: "当然可以！在任何地方分享您的链接——Facebook、Twitter、Instagram、电子邮件、短信，甚至是面对面分享。广而告之吧！",
+        q: "我可以在哪些平台上分享？",
+        a: "您可以直接从应用中通过 WhatsApp、Facebook 和 X (Twitter) 分享 Legacy Keeper——每次分享操作都能为您赚取 500 积分。",
       },
       {
-        q: "如果我的朋友已经有了这个应用怎么办？",
-        a: "他们需要使用您的专属推荐链接下载并注册，才算作一次成功的推荐。现有用户不计入您的奖励。",
+        q: "我需要推荐链接才能赚取积分吗？",
+        a: "无需推荐链接或注册。每次在 WhatsApp、Facebook 或 X 上分享，您都能赚取 500 积分——只需分享即可获得。",
       },
     ],
     ctaTitle: "准备好开始赚取积分了吗？",
     ctaDesc:
-      "立即下载 Legacy Keeper，获取您的推荐链接，在为自己解锁高级功能的同时，分享这份安心！",
-    ctaButton: "下载并开始推荐",
+      "立即下载 Legacy Keeper，并在 WhatsApp、Facebook 和 X 上分享，在为自己解锁高级功能的同时开始赚取积分！",
+    ctaButton: "下载并开始分享",
     free: "免费",
   },
 

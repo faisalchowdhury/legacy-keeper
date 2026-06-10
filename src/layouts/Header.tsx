@@ -10,6 +10,7 @@ export default function Header() {
   const [scrolled, setScrolled] = useState<boolean>(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
   const [langMenuOpen, setLangMenuOpen] = useState<boolean>(false);
+  const [mobileLangOpen, setMobileLangOpen] = useState<boolean>(false);
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [currentTime, setCurrentTime] = useState<number>(0);
   const [duration, setDuration] = useState<number>(0);
@@ -21,24 +22,27 @@ export default function Header() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const progressRef = useRef<HTMLDivElement>(null);
   const langMenuRef = useRef<HTMLDivElement>(null);
+  const mobileLangRef = useRef<HTMLDivElement>(null);
 
   const languages = [
-    { code: "en", label: "EN", full: "English" },
-    { code: "nl", label: "NL", full: "Nederlands" },
-    { code: "de", label: "DE", full: "Deutsch" },
-    { code: "fr", label: "FR", full: "Français" },
-    { code: "es", label: "ES", full: "Español" },
-    { code: "pt", label: "PT", full: "Português" },
-    { code: "ru", label: "RU", full: "Русский" },
-    { code: "ar", label: "AR", full: "العربية" },
-    { code: "hi", label: "HI", full: "हिन्दी" },
-    { code: "zh", label: "ZH", full: "中文" },
-    { code: "ja", label: "JA", full: "日本語" },
-    { code: "ko", label: "KO", full: "한국어" },
-    { code: "tr", label: "TR", full: "Türkçe" },
-    { code: "bn", label: "BN", full: "বাংলা" },
-    { code: "ur", label: "UR", full: "اردو" },
+    { code: "en", label: "EN", full: "English", flag: "gb" },
+    { code: "nl", label: "NL", full: "Nederlands", flag: "nl" },
+    { code: "de", label: "DE", full: "Deutsch", flag: "de" },
+    { code: "fr", label: "FR", full: "Français", flag: "fr" },
+    { code: "es", label: "ES", full: "Español", flag: "es" },
+    { code: "pt", label: "PT", full: "Português", flag: "pt" },
+    { code: "ru", label: "RU", full: "Русский", flag: "ru" },
+    { code: "ar", label: "AR", full: "العربية", flag: "sa" },
+    { code: "hi", label: "HI", full: "हिन्दी", flag: "in" },
+    { code: "zh", label: "ZH", full: "中文", flag: "cn" },
+    { code: "ja", label: "JA", full: "日本語", flag: "jp" },
+    { code: "ko", label: "KO", full: "한국어", flag: "kr" },
+    { code: "tr", label: "TR", full: "Türkçe", flag: "tr" },
+    { code: "bn", label: "BN", full: "বাংলা", flag: "bd" },
+    { code: "ur", label: "UR", full: "اردو", flag: "pk" },
   ];
+
+  const currentLang = languages.find((l) => l.code === language);
 
   // Close language menu when clicking outside
   useEffect(() => {
@@ -48,6 +52,12 @@ export default function Header() {
         !langMenuRef.current.contains(event.target as Node)
       ) {
         setLangMenuOpen(false);
+      }
+      if (
+        mobileLangRef.current &&
+        !mobileLangRef.current.contains(event.target as Node)
+      ) {
+        setMobileLangOpen(false);
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
@@ -224,12 +234,6 @@ export default function Header() {
                 >
                   {t.nav.features}
                 </a>
-                <Link
-                  to="/privacy-policy"
-                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
-                >
-                  {t.nav.privacy}
-                </Link>
                 <a
                   href="#download"
                   onClick={(e) => handleNavClick(e, "download")}
@@ -237,12 +241,6 @@ export default function Header() {
                 >
                   {t.nav.download}
                 </a>
-                <Link
-                  to="/contact"
-                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
-                >
-                  {t.nav.contact}
-                </Link>
                 <Link
                   to="/affiliate"
                   className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
@@ -261,15 +259,31 @@ export default function Header() {
                 >
                   {t.nav.lkt}
                 </Link>
+                <Link
+                  to="/privacy-policy"
+                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
+                >
+                  {t.nav.privacy}
+                </Link>
+                <Link
+                  to="/contact"
+                  className="nav-link text-[#4b5563] hover:text-accent transition-all duration-300 font-medium text-sm xl:text-base whitespace-nowrap"
+                >
+                  {t.nav.contact}
+                </Link>
 
                 <div className="relative" ref={langMenuRef}>
                   <button
                     onClick={() => setLangMenuOpen(!langMenuOpen)}
                     className="flex items-center gap-2 px-3 xl:px-4 py-2 rounded-full border border-[#e2e8f0] bg-white shadow-sm hover:border-accent transition-all duration-300 text-sm font-semibold text-[#4b5563]"
                   >
-                    <span>
-                      {languages.find((l) => l.code === language)?.label}
-                    </span>
+                    {currentLang && (
+                      <span
+                        className={`fi fi-${currentLang.flag} rounded-sm`}
+                        style={{ width: "1.2em", height: "1.2em" }}
+                      />
+                    )}
+                    <span>{currentLang?.label}</span>
                     <svg
                       className={`w-4 h-4 transition-transform duration-300 ${langMenuOpen ? "rotate-180" : ""}`}
                       fill="none"
@@ -297,7 +311,13 @@ export default function Header() {
                             }}
                             className={`flex items-center justify-between px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200 ${language === lang.code ? "bg-accent text-white" : "text-[#4b5563] hover:bg-[#f5f8ff] hover:text-accent"}`}
                           >
-                            <span>{lang.full}</span>
+                            <span className="flex items-center gap-2.5">
+                              <span
+                                className={`fi fi-${lang.flag} rounded-sm flex-shrink-0`}
+                                style={{ width: "1.3em", height: "1.3em" }}
+                              />
+                              <span>{lang.full}</span>
+                            </span>
                             {language === lang.code && (
                               <svg
                                 className="w-4 h-4"
@@ -321,23 +341,95 @@ export default function Header() {
                 </div>
               </div>
 
-              <button
-                onClick={toggleMobileMenu}
-                className="lg:hidden relative w-10 h-10 flex items-center justify-center focus:outline-none z-50"
-                aria-label="Toggle mobile menu"
-              >
-                <div className="hamburger-menu">
-                  <span
-                    className={`hamburger-line ${mobileMenuOpen ? "active" : ""}`}
-                  ></span>
-                  <span
-                    className={`hamburger-line ${mobileMenuOpen ? "active" : ""}`}
-                  ></span>
-                  <span
-                    className={`hamburger-line ${mobileMenuOpen ? "active" : ""}`}
-                  ></span>
+              <div className="flex items-center gap-2 lg:hidden">
+                {/* Mobile language selector */}
+                <div className="relative" ref={mobileLangRef}>
+                  <button
+                    onClick={() => setMobileLangOpen(!mobileLangOpen)}
+                    className="flex items-center gap-1.5 px-3 py-2 rounded-full border border-[#e2e8f0] bg-white shadow-sm hover:border-accent transition-all duration-300 text-sm font-semibold text-[#4b5563]"
+                    aria-label="Select language"
+                  >
+                    {currentLang && (
+                      <span
+                        className={`fi fi-${currentLang.flag} rounded-sm`}
+                        style={{ width: "1.2em", height: "1.2em" }}
+                      />
+                    )}
+                    <span>{currentLang?.label}</span>
+                    <svg
+                      className={`w-3.5 h-3.5 transition-transform duration-300 ${mobileLangOpen ? "rotate-180" : ""}`}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+
+                  {mobileLangOpen && (
+                    <div className="absolute right-0 mt-2 w-48 max-h-[60vh] overflow-y-auto bg-white rounded-2xl shadow-xl border border-[#e2e8f0] py-2 z-[60] animate-in fade-in zoom-in duration-200 custom-scrollbar">
+                      <div className="grid grid-cols-1 gap-1 px-2">
+                        {languages.map((lang) => (
+                          <button
+                            key={lang.code}
+                            onClick={() => {
+                              setLanguage(lang.code as any);
+                              setMobileLangOpen(false);
+                            }}
+                            className={`flex items-center justify-between px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200 ${language === lang.code ? "bg-accent text-white" : "text-[#4b5563] hover:bg-[#f5f8ff] hover:text-accent"}`}
+                          >
+                            <span className="flex items-center gap-2.5">
+                              <span
+                                className={`fi fi-${lang.flag} rounded-sm flex-shrink-0`}
+                                style={{ width: "1.3em", height: "1.3em" }}
+                              />
+                              <span>{lang.full}</span>
+                            </span>
+                            {language === lang.code && (
+                              <svg
+                                className="w-4 h-4"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M5 13l4 4L19 7"
+                                />
+                              </svg>
+                            )}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
-              </button>
+
+                <button
+                  onClick={toggleMobileMenu}
+                  className="relative w-10 h-10 flex items-center justify-center focus:outline-none z-50"
+                  aria-label="Toggle mobile menu"
+                >
+                  <div className="hamburger-menu">
+                    <span
+                      className={`hamburger-line ${mobileMenuOpen ? "active" : ""}`}
+                    ></span>
+                    <span
+                      className={`hamburger-line ${mobileMenuOpen ? "active" : ""}`}
+                    ></span>
+                    <span
+                      className={`hamburger-line ${mobileMenuOpen ? "active" : ""}`}
+                    ></span>
+                  </div>
+                </button>
+              </div>
             </div>
           </div>
         </nav>
@@ -460,13 +552,13 @@ export default function Header() {
 
       {/* Mobile Menu */}
       <div
-        className={`mobile-menu-overlay fixed inset-0 bg-black/60 backdrop-blur-sm z-40 transition-opacity duration-300 md:hidden ${mobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+        className={`mobile-menu-overlay fixed inset-0 bg-black/60 backdrop-blur-sm z-40 transition-opacity duration-300 lg:hidden ${mobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
         onClick={() => setMobileMenuOpen(false)}
       />
       <div
-        className={`mobile-menu fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-white backdrop-blur-xl shadow-2xl z-40 transition-transform duration-300 ease-out md:hidden ${mobileMenuOpen ? "translate-x-0" : "translate-x-full"}`}
+        className={`mobile-menu fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-white backdrop-blur-xl shadow-2xl z-40 transition-transform duration-300 ease-out lg:hidden ${mobileMenuOpen ? "translate-x-0" : "translate-x-full"}`}
       >
-        <div className="flex flex-col h-full pt-24 px-8 pb-8">
+        <div className="flex flex-col h-full pt-24 px-8 pb-8 overflow-y-auto">
           <nav className="flex flex-col gap-6">
             <a
               href="#features"
@@ -475,12 +567,6 @@ export default function Header() {
             >
               {t.nav.features}
             </a>
-            <Link
-              to="/privacy-policy"
-              className="mobile-nav-link text-2xl font-semibold text-[#1e2332] hover:text-accent transition-all duration-300"
-            >
-              {t.nav.privacy}
-            </Link>
             <a
               href="#download"
               onClick={(e) => handleNavClick(e, "download")}
@@ -488,12 +574,6 @@ export default function Header() {
             >
               {t.nav.download}
             </a>
-            <Link
-              to="/contact"
-              className="mobile-nav-link text-2xl font-semibold text-[#1e2332] hover:text-accent transition-all duration-300"
-            >
-              {t.nav.contact}
-            </Link>
             <Link
               to="/affiliate"
               className="mobile-nav-link text-2xl font-semibold text-[#1e2332] hover:text-accent transition-all duration-300"
@@ -506,17 +586,24 @@ export default function Header() {
             >
               {t.nav.referralReward}
             </Link>
-            <div className="grid grid-cols-2 gap-2 pt-2">
-              {languages.map((lang) => (
-                <button
-                  key={lang.code}
-                  onClick={() => setLanguage(lang.code as any)}
-                  className={`py-2 px-3 rounded-xl text-xs font-semibold border transition-all duration-200 ${language === lang.code ? "bg-accent text-white border-accent shadow-md" : "text-[#6b7280] border-[#e2e8f0] bg-white"}`}
-                >
-                  {lang.full}
-                </button>
-              ))}
-            </div>
+            <Link
+              to="/legecy-keeper-token"
+              className="mobile-nav-link text-2xl font-semibold text-[#1e2332] hover:text-accent transition-all duration-300"
+            >
+              {t.nav.lkt}
+            </Link>
+            <Link
+              to="/privacy-policy"
+              className="mobile-nav-link text-2xl font-semibold text-[#1e2332] hover:text-accent transition-all duration-300"
+            >
+              {t.nav.privacy}
+            </Link>
+            <Link
+              to="/contact"
+              className="mobile-nav-link text-2xl font-semibold text-[#1e2332] hover:text-accent transition-all duration-300"
+            >
+              {t.nav.contact}
+            </Link>
           </nav>
           <div className="mt-auto pt-8 border-t border-[#e2e8f0]">
             <p className="text-[#9ca3af] text-sm">© 2026 Legacy Keeper</p>

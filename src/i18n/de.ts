@@ -848,35 +848,35 @@ export const de = {
   },
 
   affiliate: {
-    badge: "Empfehlungs-Belohnungsprogramm",
+    badge: "Teilen & Belohnungen verdienen",
     title: "Legacy Keeper teilen,",
     titleAccent: "Belohnungen verdienen",
-    desc: "Helfen Sie Ihren Freunden und Verwandten, ihr Erbe zu sichern, während Sie Punkte sammeln, um Premium-Funktionen freizuschalten. Jeder gewinnt!",
-    startReferring: "Empfehlungen starten",
+    desc: "Verbreiten Sie Legacy Keeper auf WhatsApp, Facebook und X (Twitter), um Punkte zu sammeln, mit denen Sie Premium-Funktionen freischalten können. Jedes Teilen hilft einem Freund, sein Erbe zu sichern – und belohnt Sie.",
+    startReferring: "Jetzt teilen",
     howItWorks: "So funktioniert es",
-    coinsPerReferral: "Punkte pro Empfehlung",
-    unlimitedReferrals: "Unbegrenzte Empfehlungen",
+    coinsPerReferral: "Punkte pro Teilen",
+    unlimitedReferrals: "Unbegrenztes Teilen",
     premiumFeatures: "Premium-Funktionen",
     howTitle: "Wie das",
-    howTitleAccent: "Empfehlungsprogramm",
+    howTitleAccent: "Teilen",
     howTitleEnd: "funktioniert",
     howDesc:
       "Einfach, transparent und lohnend. Sammeln Sie Punkte in nur 3 einfachen Schritten.",
     steps: [
       {
         step: "01",
-        title: "Link teilen",
-        desc: "Holen Sie sich Ihren persönlichen Empfehlungslink in der App und teilen Sie ihn mit Freunden, Familie oder in sozialen Medien.",
+        title: "Teilen-Menü öffnen",
+        desc: "Tippen Sie in der Legacy Keeper App auf die Teilen-Schaltfläche, um Ihre Teilen-Optionen zu sehen.",
       },
       {
         step: "02",
-        title: "Sie melden sich an",
-        desc: "Wenn jemand Legacy Keeper über Ihren Link herunterlädt und ein Konto erstellt, sind Sie auf dem besten Weg!",
+        title: "In sozialen Medien teilen",
+        desc: "Teilen Sie die App mit nur einem Tipp über WhatsApp, Facebook oder X (Twitter).",
       },
       {
         step: "03",
-        title: "500 Punkte verdienen",
-        desc: "Sie erhalten sofort 500 Punkte, sobald die Einrichtung des ersten Testaments abgeschlossen ist. Schalten Sie Funktionen frei!",
+        title: "500 Punkte pro Teilen verdienen",
+        desc: "Sie erhalten sofort 500 Punkte für jede Teilen-Aktion. Beginnen Sie, Funktionen freizuschalten!",
       },
     ],
     unlockTitle: "Premium-Funktionen",
@@ -917,10 +917,10 @@ export const de = {
       },
     ],
     proTip: "Profi-Tipp:",
-    proTipText: "Empfehlen Sie nur",
-    proTipFriends: "2 Freunde",
-    proTipEnd: ", um Bestattungswünsche freizuschalten!",
-    whyTitle: "Warum",
+    proTipText: "Teilen Sie auf",
+    proTipFriends: "WhatsApp, Facebook & X",
+    proTipEnd: ", um für jedes Teilen 500 Punkte zu verdienen!",
+    whyTitle: "Warum teilen",
     whyTitleAccent: "Legacy Keeper empfehlen?",
     benefits: [
       {
@@ -929,7 +929,7 @@ export const de = {
       },
       {
         title: "Verdienen beim Teilen",
-        desc: "Werden Sie mit Punkten für jede erfolgreiche Empfehlung belohnt – ohne Limit!",
+        desc: "Erhalten Sie 500 Punkte für jedes Teilen auf WhatsApp, Facebook oder X – ohne Limit!",
       },
       {
         title: "Premium-Funktionen freischalten",
@@ -944,34 +944,34 @@ export const de = {
     faqTitleAccent: "Fragen",
     faqs: [
       {
-        q: "Wie bekomme ich meinen Empfehlungslink?",
-        a: "Sobald Sie Legacy Keeper heruntergeladen und ein Konto erstellt haben, finden Sie Ihren Link im Bereich 'Empfehlungen'. Einfach kopieren!",
+        q: "Wie teile ich Legacy Keeper?",
+        a: "Öffnen Sie die Legacy Keeper App und tippen Sie auf die Teilen-Schaltfläche. Sie können die App direkt über WhatsApp, Facebook oder X (Twitter) teilen.",
       },
       {
-        q: "Wann erhalte ich meine Punkte?",
-        a: "Sie erhalten 500 Punkte sofort, wenn der geworbene Freund seine erste Testamenteinrichtung in der App abschließt.",
+        q: "Wie viele Punkte verdiene ich pro Teilen?",
+        a: "Sie erhalten 500 Punkte für jede Teilen-Aktion auf WhatsApp, Facebook oder X. Die Punkte werden automatisch Ihrem Konto gutgeschrieben.",
       },
       {
-        q: "Gibt es ein Limit für Empfehlungen?",
-        a: "Nein! Es gibt kein Limit. Empfehlen Sie so viele Personen, wie Sie möchten.",
+        q: "Gibt es ein Limit, wie oft ich teilen kann?",
+        a: "Nein! Es gibt kein Limit. Teilen Sie so oft Sie möchten über WhatsApp, Facebook und X und sammeln Sie weiter Punkte. Je mehr Sie teilen, desto mehr Funktionen schalten Sie frei!",
       },
       {
         q: "Verfallen die Punkte?",
-        a: "Nein, Ihre verdienten Punkte verfallen niemals.",
+        a: "Nein, Ihre verdienten Punkte verfallen niemals. Sie können sie ansparen und verwenden, wann immer Sie bereit sind, Funktionen freizuschalten.",
       },
       {
-        q: "Darf ich den Link in sozialen Medien teilen?",
-        a: "Absolut! Teilen Sie Ihren Link überall – Facebook, Twitter, Instagram, E-Mail oder SMS.",
+        q: "Auf welchen Plattformen kann ich teilen?",
+        a: "Sie können Legacy Keeper direkt aus der App über WhatsApp, Facebook und X (Twitter) teilen – jede Teilen-Aktion bringt Ihnen 500 Punkte.",
       },
       {
-        q: "Was, wenn mein Freund die App schon hat?",
-        a: "Er muss sie über Ihren Link herunterladen und sich neu anmelden, damit es als erfolgreiche Empfehlung zählt.",
+        q: "Benötige ich einen Empfehlungslink, um Punkte zu verdienen?",
+        a: "Keine Empfehlungslinks oder Anmeldungen erforderlich. Sie verdienen 500 Punkte für jede Teilen-Aktion auf WhatsApp, Facebook oder X – einfach teilen und verdienen.",
       },
     ],
     ctaTitle: "Bereit zu verdienen?",
     ctaDesc:
-      "Laden Sie Legacy Keeper jetzt herunter, holen Sie sich Ihren Link und teilen Sie das Geschenk der Sorgenfreiheit!",
-    ctaButton: "Herunterladen & Empfehlen",
+      "Laden Sie Legacy Keeper jetzt herunter und teilen Sie es auf WhatsApp, Facebook und X, um Punkte zu sammeln und sich Premium-Funktionen freizuschalten!",
+    ctaButton: "Herunterladen & Teilen starten",
     free: "Kostenlos",
   },
 

@@ -836,35 +836,35 @@ export const tr = {
   },
 
   affiliate: {
-    badge: "Tavsiye Ödül Programı",
+    badge: "Paylaş ve Ödül Kazan",
     title: "Legacy Keeper'ı Paylaşın,",
     titleAccent: "Ödüller Kazanın",
-    desc: "Premium özelliklerin kilidini açmak için puan kazanırken arkadaşlarınızın ve ailenizin miraslarını güvence altına almalarına yardımcı olun. Huzur hediyesini paylaştığınızda herkes kazanır.",
-    startReferring: "Tavsiye Etmeye Başla",
+    desc: "Premium özelliklerin kilidini açmak için kullanabileceğiniz puanlar kazanmak üzere Legacy Keeper'ı WhatsApp, Facebook ve X (Twitter) üzerinde duyurun. Her paylaşım bir arkadaşınızın mirasını güvence altına almasına yardımcı olur ve sizi ödüllendirir.",
+    startReferring: "Paylaşmaya Başla",
     howItWorks: "Nasıl Çalışır?",
-    coinsPerReferral: "Tavsiye Başına Puan",
-    unlimitedReferrals: "Sınırsız Tavsiye",
+    coinsPerReferral: "Paylaşım Başına Puan",
+    unlimitedReferrals: "Sınırsız Paylaşım",
     premiumFeatures: "Premium Özellikler",
-    howTitle: "Tavsiye Programı",
-    howTitleAccent: "Nasıl",
+    howTitle: "Nasıl",
+    howTitleAccent: "Paylaşım",
     howTitleEnd: "Çalışır?",
     howDesc:
-      "Basit, şeffaf ve ödüllendirici. Sadece 3 kolay adımda Puan kazanmaya başlayın.",
+      "Basit, şeffaf ve ödüllendirici. Sadece 3 kolay adımda puan kazanmaya başlayın.",
     steps: [
       {
         step: "01",
-        title: "Bağlantınızı Paylaşın",
-        desc: "Uygulamadan benzersiz tavsiye bağlantınızı alın ve arkadaşlarınızla, ailenizle veya sosyal medyada paylaşın.",
+        title: "Paylaşım Menüsünü Açın",
+        desc: "Paylaşım seçeneklerinizi görmek için Legacy Keeper uygulamasındaki paylaş düğmesine dokunun.",
       },
       {
         step: "02",
-        title: "Kayıt Olsunlar",
-        desc: "Biri bağlantınızı kullanarak Legacy Keeper'ı indirdiğinde ve hesabını oluşturduğunda, yolun yarısındasınız demektir!",
+        title: "Sosyal Medyada Paylaşın",
+        desc: "Uygulamayı tek bir dokunuşla WhatsApp, Facebook veya X (Twitter) üzerinden paylaşın.",
       },
       {
         step: "03",
-        title: "500 Puan Kazanın",
-        desc: "İlk vasiyet kurulumunu tamamladıklarında anında 500 Puan kazanırsınız. Özelliklerin kilidini açmaya başlayın!",
+        title: "Paylaşım Başına 500 Puan Kazanın",
+        desc: "Her paylaşım işlemi için anında 500 puan kazanırsınız. Özelliklerin kilidini açmaya başlayın!",
       },
     ],
     unlockTitle: "Puanlarla Premium",
@@ -905,10 +905,10 @@ export const tr = {
       },
     ],
     proTip: "İpucu:",
-    proTipText: "Cenaze Dileklerinin kilidini açmak için sadece",
-    proTipFriends: "2 arkadaşınızı",
-    proTipEnd: "tavsiye edin!",
-    whyTitle: "Neden Legacy Keeper",
+    proTipText: "Şurada paylaşın:",
+    proTipFriends: "WhatsApp, Facebook ve X",
+    proTipEnd: "her biri için 500 puan kazanın!",
+    whyTitle: "Neden Paylaşmalı",
     whyTitleAccent: "Tavsiye Edilmeli?",
     benefits: [
       {
@@ -917,7 +917,7 @@ export const tr = {
       },
       {
         title: "Paylaşırken Kazanın",
-        desc: "Her başarılı tavsiye için Puanlarla ödüllendirin; sınır yok!",
+        desc: "WhatsApp, Facebook veya X üzerindeki her paylaşım için 500 puan kazanın; sınır yok!",
       },
       {
         title: "Premium Özellikleri Açın",
@@ -932,34 +932,34 @@ export const tr = {
     faqTitleAccent: "Sorular",
     faqs: [
       {
-        q: "Tavsiye bağlantımı nasıl alırım?",
-        a: "Legacy Keeper'ı indirip bir hesap oluşturduktan sonra, benzersiz tavsiye bağlantınızı uygulamanın 'Tavsiyeler' bölümünde bulacaksınız. Sadece kopyalayın ve paylaşın!",
+        q: "Legacy Keeper'ı nasıl paylaşırım?",
+        a: "Legacy Keeper uygulamasını açın ve paylaş düğmesine dokunun. Uygulamayı doğrudan WhatsApp, Facebook veya X (Twitter) üzerinden paylaşabilirsiniz.",
       },
       {
-        q: "Puanlarımı ne zaman alırım?",
-        a: "Tavsiye ettiğiniz arkadaşınız uygulamada ilk vasiyet kurulumunu tamamladığında anında 500 Puan kazanırsınız. Puanlar otomatik olarak hesabınıza eklenir.",
+        q: "Paylaşım başına kaç puan kazanırım?",
+        a: "WhatsApp, Facebook veya X üzerindeki her paylaşım işlemi için 500 puan kazanırsınız. Puanlar otomatik olarak hesabınıza eklenir.",
       },
       {
-        q: "Kaç kişiyi tavsiye edebileceğim konusunda bir sınır var mı?",
-        a: "Hayır! Sınır yok. İstediğiniz kadar kişiyi tavsiye edin ve Puan kazanmaya devam edin. Ne kadar çok paylaşırsanız, o kadar çok özelliğin kilidini açarsınız!",
+        q: "Ne kadar paylaşabileceğim konusunda bir sınır var mı?",
+        a: "Hayır! Sınır yok. WhatsApp, Facebook ve X üzerinde dilediğiniz kadar paylaşın ve puan kazanmaya devam edin. Ne kadar çok paylaşırsanız, o kadar çok özelliğin kilidini açarsınız!",
       },
       {
         q: "Puanların süresi dolar mı?",
-        a: "Hayır, kazandığınız Puanların süresi asla dolmaz. Onları biriktirebilir ve özelliklerin kilidini açmaya hazır olduğunuzda kullanabilirsiniz.",
+        a: "Hayır, kazandığınız puanların süresi asla dolmaz. Onları biriktirebilir ve özelliklerin kilidini açmaya hazır olduğunuzda kullanabilirsiniz.",
       },
       {
-        q: "Tavsiye bağlantımı sosyal medyada paylaşabilir miyim?",
-        a: "Kesinlikle! Bağlantınızı her yerde paylaşın: Facebook, Twitter, Instagram, e-posta, metin mesajı ve hatta yüz yüze. Herkese duyurun!",
+        q: "Hangi platformlarda paylaşabilirim?",
+        a: "Legacy Keeper'ı doğrudan uygulamadan WhatsApp, Facebook ve X (Twitter) üzerinden paylaşabilirsiniz; her paylaşım işlemi size 500 puan kazandırır.",
       },
       {
-        q: "Ya arkadaşımda uygulama zaten varsa?",
-        a: "Başarılı bir tavsiye sayılması için benzersiz tavsiye bağlantınızı kullanarak indirip kayıt olmaları gerekir. Mevcut kullanıcılar ödülleriniz için sayılmaz.",
+        q: "Puan kazanmak için bir tavsiye bağlantısına ihtiyacım var mı?",
+        a: "Tavsiye bağlantısı veya kayıt gerekmez. WhatsApp, Facebook veya X üzerindeki her paylaşım işlemi için 500 puan kazanırsınız; sadece paylaşın ve kazanın.",
       },
     ],
     ctaTitle: "Kazanmaya Başlamaya Hazır mısınız?",
     ctaDesc:
-      "Şimdi Legacy Keeper'ı indirin, tavsiye bağlantınızı alın ve kendiniz için premium özelliklerin kilidini açarken huzur hediyesini paylaşmaya başlayın!",
-    ctaButton: "İndir ve Tavsiye Etmeye Başla",
+      "Şimdi Legacy Keeper'ı indirin ve kendiniz için premium özelliklerin kilidini açarken puan kazanmaya başlamak üzere WhatsApp, Facebook ve X üzerinde paylaşın!",
+    ctaButton: "İndir ve Paylaşmaya Başla",
     free: "Ücretsiz",
   },
 

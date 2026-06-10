@@ -821,35 +821,35 @@ export const ko = {
   },
 
   affiliate: {
-    badge: "추천 보상 프로그램",
+    badge: "공유하고 보상을 받으세요",
     title: "Legacy Keeper를 공유하고",
     titleAccent: "보상을 받으세요",
-    desc: "친구와 가족이 유산을 보호하도록 돕고, 포인트를 쌓아 프리미엄 기능을 잠금 해제하세요. 안심이라는 선물을 공유하면 모두가 승자가 됩니다.",
-    startReferring: "추천 시작하기",
+    desc: "WhatsApp, Facebook, X (Twitter)에서 Legacy Keeper를 널리 알리고 포인트를 쌓아 프리미엄 기능을 잠금 해제하세요. 공유할 때마다 친구가 유산을 지키는 데 도움이 되고, 당신은 보상을 받습니다.",
+    startReferring: "공유 시작하기",
     howItWorks: "작동 방식",
-    coinsPerReferral: "추천당 포인트",
-    unlimitedReferrals: "무제한 추천",
+    coinsPerReferral: "공유당 포인트",
+    unlimitedReferrals: "무제한 공유",
     premiumFeatures: "프리미엄 기능",
-    howTitle: "추천 프로그램",
-    howTitleAccent: "작동 방식",
-    howTitleEnd: "",
+    howTitle: "공유",
+    howTitleAccent: "기능",
+    howTitleEnd: "작동 방식",
     howDesc:
-      "간단하고 투명하며 보람 있습니다. 3가지 쉬운 단계로 포인트를 쌓아보세요.",
+      "간단하고 투명하며 보람 있습니다. 단 3가지 쉬운 단계로 포인트를 쌓기 시작하세요.",
     steps: [
       {
         step: "01",
-        title: "링크 공유",
-        desc: "앱에서 고유한 추천 링크를 받아 친구, 가족 또는 SNS에 공유하세요.",
+        title: "공유 메뉴 열기",
+        desc: "Legacy Keeper 앱에서 공유 버튼을 눌러 공유 옵션을 확인하세요.",
       },
       {
         step: "02",
-        title: "가입 완료",
-        desc: "누군가 당신의 링크를 통해 Legacy Keeper를 다운로드하고 계정을 생성하면 완료!",
+        title: "소셜 미디어에 공유하기",
+        desc: "한 번의 탭으로 WhatsApp, Facebook 또는 X (Twitter)를 통해 앱을 공유하세요.",
       },
       {
         step: "03",
-        title: "500 포인트 획득",
-        desc: "상대방이 첫 유언장 설정을 마치면 즉시 500 포인트를 받습니다. 기능을 잠금 해제해 보세요!",
+        title: "공유당 500 포인트 획득",
+        desc: "공유할 때마다 즉시 500 포인트를 받습니다. 기능을 잠금 해제해 보세요!",
       },
     ],
     unlockTitle: "프리미엄 기능",
@@ -890,10 +890,10 @@ export const ko = {
       },
     ],
     proTip: "꿀팁:",
-    proTipText: "친구",
-    proTipFriends: "2명만",
-    proTipEnd: "추천해도 장례 희망 사항 기능을 사용할 수 있습니다!",
-    whyTitle: "왜 Legacy Keeper를",
+    proTipText: "다음에서 공유하세요",
+    proTipFriends: "WhatsApp, Facebook & X",
+    proTipEnd: "각각 공유할 때마다 500 포인트를 받으세요!",
+    whyTitle: "왜 공유해야 할까요?",
     whyTitleAccent: "추천해야 할까요?",
     benefits: [
       {
@@ -902,7 +902,7 @@ export const ko = {
       },
       {
         title: "공유하며 보상받기",
-        desc: "추천 성공 시마다 제한 없이 포인트를 보상으로 받으세요.",
+        desc: "WhatsApp, Facebook 또는 X에서 공유할 때마다 500 포인트를 받으세요. 제한이 없습니다!",
       },
       {
         title: "프리미엄 기능 무료 이용",
@@ -917,34 +917,34 @@ export const ko = {
     faqTitleAccent: "질문",
     faqs: [
       {
-        q: "추천 링크는 어디서 확인하나요?",
-        a: "Legacy Keeper 다운로드 후 계정을 생성하면 앱의 '추천' 섹션에서 고유 링크를 찾을 수 있습니다. 복사해서 공유하면 됩니다!",
+        q: "Legacy Keeper를 어떻게 공유하나요?",
+        a: "Legacy Keeper 앱을 열고 공유 버튼을 누르세요. WhatsApp, Facebook 또는 X (Twitter)를 통해 앱을 바로 공유할 수 있습니다.",
       },
       {
-        q: "포인트는 언제 들어오나요?",
-        a: "추천받은 친구가 앱에서 첫 유언장 설정을 완료하면 즉시 500 포인트가 적립됩니다. 포인트는 자동으로 계정에 추가됩니다.",
+        q: "공유당 포인트는 얼마나 받나요?",
+        a: "WhatsApp, Facebook 또는 X에서 공유할 때마다 500 포인트를 받습니다. 포인트는 자동으로 계정에 추가됩니다.",
       },
       {
-        q: "추천 인원 제한이 있나요?",
-        a: "아니요, 제한은 없습니다! 원하는 만큼 많은 사람을 추천하고 계속 포인트를 쌓으세요.",
+        q: "공유 횟수에 제한이 있나요?",
+        a: "아니요! 제한이 없습니다. WhatsApp, Facebook, X에서 원하는 만큼 자주 공유하며 계속 포인트를 쌓으세요. 많이 공유할수록 더 많은 기능을 잠금 해제할 수 있습니다!",
       },
       {
         q: "포인트 유효기간이 있나요?",
         a: "아니요, 획득한 포인트는 소멸되지 않습니다. 모아두었다가 원할 때 기능을 잠금 해제하는 데 사용하세요.",
       },
       {
-        q: "SNS에 링크를 공유해도 되나요?",
-        a: "당연하죠! 페이스북, 트위터, 인스타그램, 이메일, 문자 등 어디든 공유해 보세요.",
+        q: "어떤 플랫폼에 공유할 수 있나요?",
+        a: "앱에서 바로 WhatsApp, Facebook, X (Twitter)를 통해 Legacy Keeper를 공유할 수 있으며, 공유할 때마다 500 포인트를 받습니다.",
       },
       {
-        q: "친구가 이미 앱을 가지고 있다면요?",
-        a: "상대방이 당신의 고유 링크를 통해 새로 다운로드하고 가입해야 추천으로 인정됩니다.",
+        q: "포인트를 받으려면 추천 링크가 필요한가요?",
+        a: "추천 링크나 가입이 필요하지 않습니다. WhatsApp, Facebook 또는 X에서 공유할 때마다 500 포인트를 받습니다. 그냥 공유하고 받으세요.",
       },
     ],
     ctaTitle: "보상을 받을 준비가 되셨나요?",
     ctaDesc:
-      "지금 Legacy Keeper를 다운로드하고 추천 링크를 받아보세요. 마음의 평안을 선물하고 프리미엄 기능도 사용해 보세요!",
-    ctaButton: "다운로드 및 추천하기",
+      "지금 Legacy Keeper를 다운로드하고 WhatsApp, Facebook, X에 공유하여 포인트를 쌓으면서 프리미엄 기능을 잠금 해제하세요!",
+    ctaButton: "다운로드 및 공유 시작하기",
     free: "무료",
   },
 

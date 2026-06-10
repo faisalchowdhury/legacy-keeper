@@ -497,3 +497,93 @@ html {
     opacity: 0.4;
   }
 }
+
+/* ============================================= */
+/* Mobile App-Style Banner Slider (hero, mobile)  */
+/* ============================================= */
+
+/* Wide banner card that crops the app screenshot to the
+   "Add Executor" promo banner area only. The screenshots all
+   share the same layout, so one crop works for every language. */
+.app-banner {
+  position: relative;
+  width: 100%;
+  max-width: clamp(300px, 92vw, 440px);
+  margin: 0 auto;
+  /* Banner card ratio (tune together with --banner-pos below) */
+  aspect-ratio: 1.95 / 1;
+  border-radius: clamp(14px, 4vw, 20px);
+  overflow: hidden;
+  box-shadow:
+    0 16px 40px rgba(27, 110, 243, 0.16),
+    0 2px 8px rgba(0, 0, 0, 0.06);
+  touch-action: pan-y;
+  background: #eaf2ff;
+}
+
+/* Smaller phones: keep the banner from getting too tall */
+@media (max-width: 380px) {
+  .app-banner {
+    aspect-ratio: 2 / 1;
+  }
+}
+
+/* The cropped screenshot. --banner-pos sets which vertical slice
+   of the full screenshot is shown (the promo banner). --banner-zoom
+   trims the side gutters so the card fills the frame. */
+.app-banner-img {
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: var(--banner-zoom, 116%) auto;
+  background-position: center var(--banner-pos, 28%);
+}
+
+@keyframes screenFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-screenFade {
+  animation: screenFade 0.4s ease-out;
+}
+
+/* Swipe arrows */
+.app-preview-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--accent-blue);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 6px 18px rgba(27, 110, 243, 0.18);
+  z-index: 20;
+  backdrop-filter: blur(4px);
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.app-preview-arrow:active {
+  transform: translateY(-50%) scale(0.9);
+  background: #f0f5ff;
+}
+
+.app-preview-arrow-left {
+  left: 10px;
+}
+
+.app-preview-arrow-right {
+  right: 10px;
+}
+

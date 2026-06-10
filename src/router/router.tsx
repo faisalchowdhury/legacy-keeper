@@ -15,6 +15,9 @@ import {
 import Affiliate from "../pages/Affiliate/Affiliate.tsx";
 import ReferralReward from "../pages/referralReward/ReferralReward.tsx";
 import LKT from "../pages/lkt/LKT.tsx";
+import Checkout from "../pages/checkout/Checkout.tsx";
+import PaymentSuccess from "../pages/checkout/PaymentSuccess.tsx";
+import PaymentCancel from "../pages/checkout/PaymentCancel.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -68,5 +71,17 @@ export const router = createBrowserRouter([
   {
     path: "/legecy-keeper-token",
     element: <LKT />,
+  },
+  {
+    path: "/checkout",
+    element: <Checkout />,
+  },
+  {
+    path: "/payment/success",
+    element: <PaymentSuccess />,
+  },
+  {
+    path: "/payment/cancel",
+    element: <PaymentCancel />,
   },
 ]);

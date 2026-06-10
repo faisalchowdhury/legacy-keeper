@@ -851,35 +851,35 @@ export const nl = {
   },
 
   affiliate: {
-    badge: "Verwijzingsbeloningsprogramma",
+    badge: "Delen & Beloningen Verdienen",
     title: "Deel Legacy Keeper,",
     titleAccent: "Verdien Beloningen",
-    desc: "Help uw vrienden en familie hun nalatenschap te beveiligen terwijl u munten verdient om premium functies te ontgrendelen. Iedereen wint wanneer u het geschenk van gemoedsrust deelt.",
-    startReferring: "Begin Met Verwijzen",
+    desc: "Vertel anderen over Legacy Keeper op WhatsApp, Facebook en X (Twitter) en verdien punten waarmee u premium functies kunt ontgrendelen. Elke keer dat u deelt, helpt u een vriend zijn nalatenschap te beveiligen — en wordt u beloond.",
+    startReferring: "Begin Met Delen",
     howItWorks: "Hoe Het Werkt",
-    coinsPerReferral: "Munten Per Verwijzing",
-    unlimitedReferrals: "Onbeperkte Verwijzingen",
+    coinsPerReferral: "Punten Per Deelactie",
+    unlimitedReferrals: "Onbeperkt Delen",
     premiumFeatures: "Premium Functies",
-    howTitle: "Hoe Het",
-    howTitleAccent: "Verwijzingsprogramma",
+    howTitle: "Hoe",
+    howTitleAccent: "Delen",
     howTitleEnd: "Werkt",
     howDesc:
-      "Eenvoudig, transparant en lonend. Begin in slechts 3 eenvoudige stappen met het verdienen van munten.",
+      "Eenvoudig, transparant en lonend. Begin in slechts 3 eenvoudige stappen met het verdienen van punten.",
     steps: [
       {
         step: "01",
-        title: "Deel Uw Link",
-        desc: "Haal uw unieke verwijzingslink op uit de app en deel deze met vrienden, familie of op sociale media.",
+        title: "Open Het Deelmenu",
+        desc: "Tik op de deelknop in de Legacy Keeper-app om uw deelopties te bekijken.",
       },
       {
         step: "02",
-        title: "Zij Registreren Zich",
-        desc: "Wanneer iemand Legacy Keeper downloadt via uw link en een account aanmaakt, bent u op weg!",
+        title: "Deel Op Sociale Media",
+        desc: "Deel de app via WhatsApp, Facebook of X (Twitter) met een enkele tik.",
       },
       {
         step: "03",
-        title: "Verdien 500 Munten",
-        desc: "U ontvangt direct 500 munten zodra zij hun eerste testamentopstelling voltooien. Begin met het ontgrendelen van functies!",
+        title: "Verdien 500 Punten Per Deelactie",
+        desc: "U ontvangt direct 500 punten voor elke deelactie. Begin met het ontgrendelen van functies!",
       },
     ],
     unlockTitle: "Ontgrendel Premium",
@@ -920,10 +920,10 @@ export const nl = {
       },
     ],
     proTip: "Pro Tip:",
-    proTipText: "Verwijs slechts",
-    proTipFriends: "2 vrienden",
-    proTipEnd: "om Begrafeniswensen te ontgrendelen!",
-    whyTitle: "Waarom Legacy Keeper",
+    proTipText: "Deel op",
+    proTipFriends: "WhatsApp, Facebook & X",
+    proTipEnd: "om voor elk 500 punten te verdienen!",
+    whyTitle: "Waarom Delen",
     whyTitleAccent: "Aanbevelen?",
     benefits: [
       {
@@ -932,7 +932,7 @@ export const nl = {
       },
       {
         title: "Verdien Terwijl U Deelt",
-        desc: "Ontvang munten voor elke succesvolle verwijzing — zonder limieten!",
+        desc: "Ontvang 500 punten voor elke deelactie op WhatsApp, Facebook of X — zonder limieten!",
       },
       {
         title: "Ontgrendel Premium Functies",
@@ -947,34 +947,34 @@ export const nl = {
     faqTitleAccent: "Vragen",
     faqs: [
       {
-        q: "Hoe krijg ik mijn verwijzingslink?",
-        a: "Zodra u Legacy Keeper downloadt en een account aanmaakt, vindt u uw unieke verwijzingslink in het gedeelte 'Verwijzingen' van de app. Kopieer en deel eenvoudig!",
+        q: "Hoe deel ik Legacy Keeper?",
+        a: "Open de Legacy Keeper-app en tik op de deelknop. U kunt de app direct delen via WhatsApp, Facebook of X (Twitter).",
       },
       {
-        q: "Wanneer ontvang ik mijn munten?",
-        a: "U ontvangt direct 500 munten wanneer uw verwezen vriend hun eerste testamentopstelling in de app voltooit. De munten worden automatisch aan uw account toegevoegd.",
+        q: "Hoeveel punten verdien ik per deelactie?",
+        a: "U ontvangt 500 punten voor elke deelactie op WhatsApp, Facebook of X. De punten worden automatisch aan uw account toegevoegd.",
       },
       {
-        q: "Is er een limiet aan het aantal mensen dat ik kan verwijzen?",
-        a: "Nee! Er is geen limiet. Verwijs zoveel mensen als u wilt en blijf munten verdienen. Hoe meer u deelt, hoe meer functies u ontgrendelt!",
+        q: "Is er een limiet aan hoe vaak ik kan delen?",
+        a: "Nee! Er is geen limiet. Deel zo vaak als u wilt op WhatsApp, Facebook en X en blijf punten verdienen. Hoe meer u deelt, hoe meer functies u ontgrendelt!",
       },
       {
-        q: "Verlopen munten?",
-        a: "Nee, uw verdiende munten verlopen nooit. U kunt ze sparen en gebruiken wanneer u klaar bent om functies te ontgrendelen.",
+        q: "Verlopen punten?",
+        a: "Nee, uw verdiende punten verlopen nooit. U kunt ze sparen en gebruiken wanneer u klaar bent om functies te ontgrendelen.",
       },
       {
-        q: "Kan ik mijn verwijzingslink op sociale media delen?",
-        a: "Absoluut! Deel uw link overal — Facebook, Twitter, Instagram, e-mail, tekstbericht of zelfs persoonlijk. Verspreid het woord!",
+        q: "Op welke platforms kan ik delen?",
+        a: "U kunt Legacy Keeper direct vanuit de app delen via WhatsApp, Facebook en X (Twitter) — elke deelactie levert u 500 punten op.",
       },
       {
-        q: "Wat als mijn vriend de app al heeft?",
-        a: "Ze moeten de app downloaden en zich aanmelden via uw unieke verwijzingslink om als succesvolle verwijzing te tellen. Bestaande gebruikers tellen niet mee voor uw beloningen.",
+        q: "Heb ik een verwijzingslink nodig om punten te verdienen?",
+        a: "Geen verwijzingslinks of aanmeldingen vereist. U verdient 500 punten voor elke deelactie op WhatsApp, Facebook of X — gewoon delen en verdienen.",
       },
     ],
     ctaTitle: "Klaar Om Te Beginnen Met Verdienen?",
     ctaDesc:
-      "Download Legacy Keeper nu, haal uw verwijzingslink op en begin met het delen van het geschenk van gemoedsrust terwijl u premium functies voor uzelf ontgrendelt!",
-    ctaButton: "Downloaden & Begin Met Verwijzen",
+      "Download Legacy Keeper nu en deel het op WhatsApp, Facebook en X om punten te verdienen terwijl u premium functies voor uzelf ontgrendelt!",
+    ctaButton: "Downloaden & Begin Met Delen",
     free: "Gratis",
   },
 
