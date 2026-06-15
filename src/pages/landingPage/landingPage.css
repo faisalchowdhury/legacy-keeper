@@ -502,17 +502,14 @@ html {
 /* Mobile App-Style Banner Slider (hero, mobile)  */
 /* ============================================= */
 
-/* Wide banner card that crops the app screenshot to the
-   "Add Executor" promo banner area only. The screenshots all
-   share the same layout, so one crop works for every language. */
+/* Full app screenshot, shown at its natural height like the desktop
+   phone screen — simple, full-height preview for every language. */
 .app-banner {
   position: relative;
   width: 100%;
-  max-width: clamp(300px, 92vw, 440px);
+  max-width: clamp(260px, 78vw, 360px);
   margin: 0 auto;
-  /* Banner card ratio (tune together with --banner-pos below) */
-  aspect-ratio: 1.95 / 1;
-  border-radius: clamp(14px, 4vw, 20px);
+  border-radius: clamp(16px, 4vw, 24px);
   overflow: hidden;
   box-shadow:
     0 16px 40px rgba(27, 110, 243, 0.16),
@@ -521,22 +518,11 @@ html {
   background: #eaf2ff;
 }
 
-/* Smaller phones: keep the banner from getting too tall */
-@media (max-width: 380px) {
-  .app-banner {
-    aspect-ratio: 2 / 1;
-  }
-}
-
-/* The cropped screenshot. --banner-pos sets which vertical slice
-   of the full screenshot is shown (the promo banner). --banner-zoom
-   trims the side gutters so the card fills the frame. */
+/* The full screenshot fills the card width at its natural height. */
 .app-banner-img {
-  position: absolute;
-  inset: 0;
-  background-repeat: no-repeat;
-  background-size: var(--banner-zoom, 116%) auto;
-  background-position: center var(--banner-pos, 28%);
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 @keyframes screenFade {

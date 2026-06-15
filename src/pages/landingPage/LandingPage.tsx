@@ -128,12 +128,11 @@ const LandingPage: React.FC = () => {
                         handlePreviewSwipe(dx < 0 ? 1 : -1);
                     }}
                   >
-                    <div
+                    <img
                       key={language}
+                      src={getHeroImage()}
                       className="app-banner-img animate-screenFade"
-                      style={{ backgroundImage: `url(${getHeroImage()})` }}
-                      role="img"
-                      aria-label="Legacy Keeper App Preview"
+                      alt="Legacy Keeper App Preview"
                     />
 
                     <button
