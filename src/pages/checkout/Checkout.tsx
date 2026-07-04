@@ -54,9 +54,16 @@ const Checkout: React.FC = () => {
       window.location.href = url;
     } catch (err) {
       console.error("Failed to start checkout:", err);
-      setError(
-        "We couldn't start the checkout. Please try again in a moment.",
-      );
+      
+      let errorMsg = "We couldn't start the checkout. Please try again in a moment.";
+      if (err && typeof err === "object" && "response" in err) {
+        const axiosErr = err as { response?: { data?: { message?: string } } };
+        if (axiosErr.response?.data?.message) {
+          errorMsg = `We couldn't start the checkout: ${axiosErr.response.data.message}`;
+        }
+      }
+      
+      setError(errorMsg);
       setLoading(false);
     }
   };
