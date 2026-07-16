@@ -203,7 +203,7 @@ const LandingPage: React.FC = () => {
                 {/* Store Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4 mb-12">
                   <a
-                    href="https://apps.apple.com"
+                    href="https://apps.apple.com/us/app/legacy-keeper/id6780603521"
                     className="store-button group"
                   >
                     <svg
@@ -486,7 +486,7 @@ const LandingPage: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://apps.apple.com"
+                href="https://apps.apple.com/us/app/legacy-keeper/id6780603521"
                 className="store-button-large group"
               >
                 <svg
