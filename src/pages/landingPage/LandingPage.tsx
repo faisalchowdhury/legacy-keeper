@@ -222,7 +222,7 @@ const LandingPage: React.FC = () => {
                   </a>
 
                   <a
-                    href="https://play.google.com"
+                    href="https://play.google.com/store/apps/details?id=com.legacykeeper.legacykeeper&pli=1"
                     className="store-button group"
                   >
                     <svg
@@ -506,7 +506,7 @@ const LandingPage: React.FC = () => {
                 </div>
               </a>
               <a
-                href="https://play.google.com"
+                href="https://play.google.com/store/apps/details?id=com.legacykeeper.legacykeeper&pli=1"
                 className="store-button-large group"
               >
                 <svg
